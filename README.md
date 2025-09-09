@@ -46,7 +46,79 @@ This repository complements our survey on developments in sign language technolo
 - **A survey on sign language literature**[MLwA 2023] [[paper]](https://www.sciencedirect.com/science/article/pii/S2666827023000579)  
   **Authors:** Marie Alaghband, Hamid Reza Maghroor, Ivan Garibay  
   **Introduction:** This article reviews the research progress of sign language recognition and translation, covering methods, datasets, and applications, to provide a reference for bridging the communication gap between the hearing-impaired and the hearing-normal.
-  
+
+- **Unraveling a decade: A comprehensive survey on isolated sign language recognition**[CVPR 2023] [[paper]](https://openaccess.thecvf.com/content/ICCV2023W/AMFG/html/Sarhan_Unraveling_a_Decade_A_Comprehensive_Survey_on_Isolated_Sign_Language_ICCVW_2023_paper.html)  
+  **Authors:** Noha Sarhan, Simone Frintrop  
+  **Introduction:** This paper reviews the latest methods, datasets, and performance of isolated sign language recognition (ISLR), and analyzes the research progress, challenges, and future development directions.
+
+- **A Review of Sign Language Systems**[DeSE 2023] [[paper]](https://www.researchgate.net/publication/379160316_A_Review_of_Sign_Language_Systems)  
+  **Authors:** Marzieh Moradi, Deepika Dhanabalan Kannan, Shiva Asadianfam, Hoshang Kolivand, Omar Aldhaibani  
+  **Introduction:** Provides a comprehensive review of sign language systems, with particular attention to research on British Sign Language (BSL), and examines the legal, social, and ethical considerations associated with the use of sign languages.
+
+- **Understanding Sign Language Recognition: An Overview**[ICEECT 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10739257)  
+  **Authors:** Shivani Saini, Meenu Prjapati, Bhupal Arya, Ravinder Kumar Sharma, Manoj Kumar  
+  **Introduction:** This paper reviews the progress of artificial intelligence technologies in the field of sign language recognition (SLR), covering both vision-based and sensory glove-based methods, aiming to help eliminate communication barriers for the deaf and mute.
+
+- **A review of modular continuous sign language recognition algorithms and technologies**[Mini-Micro S. 2024] [[paper]](https://qikan.cqvip.com/Qikan/Article/Detail?id=7113060967&from=Qikan_Search_Index)  
+  **Authors:** Meng Jinkai, Peng Jianjun, Xiao Zhidong, Guo Li, Jin Kai, Zheng Tong  
+  **Introduction:** This paper reviews the research progress of continuous sign language recognition, focusing on the keyframe extraction, feature extraction and sequence learning modules in unimodal and multimodal frameworks, summarizes the datasets and evaluation metrics, and discusses the challenges of existing algorithms and future development directions.
+
+- **A Survey of Methods and Technologies for Chinese Sign Language Recognition**[Mod. Spec. Educ. 2024] [[paper]](https://qikan.cqvip.com/Qikan/Article/Detail?id=7111887169&from=Qikan_Search_Index)  
+  **Authors:** Meng Jinkai, Peng Jianjun, Xiao Zhidong, Guo Li, Jin Kai, Zheng Tong  
+  **Introduction:** This paper reviews the development of Chinese sign language recognition from traditional methods to modern deep learning and artificial intelligence technologies, which provides important support for the communication between the hearing-impaired and the society.
+   
+- **Sign Language Recognition and Translation Systems for Enhanced Communication for the Hearing Impaired**[2024 1st IC-CGU] [[paper]](https://ieeexplore.ieee.org/abstract/document/10530832)  
+  **Authors:** Kambhampati Sai Sindhu, Nikitha Biradar, Penumathsa Likhita Varma, Chandrasekhar Uddagiri, et al.  
+  **Introduction:** This paper reviews the technical progress and challenges of sign language recognition and translation systems, emphasizing the importance of their grammatical complexity and diverse data requirements for developing efficient and inclusive communication tools.
+
+- **Literature Review: Recognization of Sign Language and Translation Systems**[INSPECT 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10896036)  
+  **Authors:** P. Jyothi, Rishitha Sagar Mogili, Raman Garg, Tanmayee Etla, R. Kundan  
+  **Introduction:** This paper reviews the research progress of sign language recognition and translation, and analyzes key methods, technologies, and models to promote barrier-free communication between sign language users and non-sign language users.
+
+- **Deep Learning Method for Sign Language Recognition: A Systematic Literature Review**[2024 ICIMTech] [[paper]](https://ieeexplore.ieee.org/abstract/document/10780830)  
+  **Authors:** Sekar Ayu Nadita, Lavender Nathania Adelya, Daniel Hendra Susanto, Gusti Pangestu  
+  **Introduction:** This paper systematically reviews the application of artificial intelligence (especially deep learning) in sign language recognition, evaluates the performance of different models, techniques and datasets, points out the challenges in research, and demonstrates the recognition accuracy of up to 99.98% and the potential for future development.
+
+- **A review of real-time sign language recognition for virtual interaction on meeting platforms**[Confluence 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10463439)  
+  **Authors:** Mohd Faisal, Angad Singh, Shailendra Narayan Singh  
+  **Introduction:** This study reviews the current status, challenges, and technical methods of real-time sign language recognition and translation systems in virtual meetings, providing a reference for improving multilingual sign language-assisted communication.
+
+- **Exploring Modern Approaches of Recognizing Sign Language: A Review**[ICAC²N 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10895826)  
+  **Authors:** Rani Astya, Kalpana Mishra, Anil Kumar Sagar  
+  **Introduction:** This paper reviews the latest machine learning methods and their applications for sign language recognition, analyzes the current technical advantages and challenges, and points out future research directions to improve system performance and usability.
+
+- **A Survey on Machine and Deep Learning Approaches in Sign Language Recognition: Techniques and Future Trends**[IConSCEPT 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10627910)  
+  **Authors:** C. Harshitha, Narendran Rajagopalan, et al.  
+  **Introduction:** This review summarizes the progress in the application of machine learning and deep learning in sign language recognition and explores future research directions.
+
+- **Advancements in sign language recognition: A comprehensive review and future prospects**[Access 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10670380)  
+  **Authors:** Bashaer Al Abdullah, Ghada Amoudi, Hanan Alghamdi  
+  **Introduction:** This paper systematically reviews the latest progress of automatic sign language translation systems (SLTS), emphasizes the role of deep learning in improving sign language recognition accuracy and integrating non-artificial features, and proposes future research directions to improve the applicability and performance of the systems.
+
+- **VR Applications and Vision-Based Recognition Techniques for Sign Language: A Survey**[CICN 2024] [[paper]](https://ieeexplore.ieee.org/document/10847543)  
+  **Authors:** Sumayyah Seher, Kulsoom Abedi, Kulsum Fatima, Sadiya Badiwalla, Taha Houda  
+  **Introduction:** This article reviews the combination of virtual reality and visual sign language recognition, emphasizing its application potential and future development directions in immersive education and barrier-free sign language learning.
+
+- **Sign Language or Gesture-Based Recognition System: A Review**[ASSIC 2024] [[paper]](https://ieeexplore.ieee.org/document/10507916)  
+  **Authors:** Anjana Mishra, Ayush Kumar, Abhinav Kumar, Abhishek Mahato, Keshav Kamal  
+  **Introduction:** This paper reviews the latest methods and challenges of sign language recognition using computer vision, machine learning, and Internet of Things technologies to facilitate efficient communication between deaf and mute people and others.
+
+- **A review of deep learning-based approaches to sign language processing**[AR 2024] [[paper]](https://www.tandfonline.com/doi/full/10.1080/01691864.2024.2442721?src=)  
+  **Authors:** Sihan Tan, Nabeela Khan, Zhaoyi An, Yoshitaka Ando, Rei Kawakami, Kazuhiro Nakadai  
+  **Introduction:** This review systematically reviews the development of sign language recognition, translation, and generation technologies, focusing on the application of large language models, the applicability of datasets, and the limitations of existing methods, providing a reference for promoting standardized evaluation and the development of robust sign language processing systems.
+
+- **Sign language recognition: A comprehensive review of traditional and deep learning approaches, datasets, and challenges**[Access 2024] [[paper]](https://ieeexplore.ieee.org/document/10526274)  
+  **Authors:** Tangfei Tao, Yizhe Zhao, Tianyu Liu, Jieli Zhu  
+  **Introduction:** This paper reviews the recent developments in sign language recognition (SLR), covering traditional and deep learning methods, datasets, challenges, and future directions, aiming to provide a reference for sign language understanding and research.
+
+- **A Meta-Analytic Quantitative Review of Methods and Techniques for Sign Language Recognition Approaches**[IST-Africa 2024] [[paper]](https://ieeexplore.ieee.org/document/10569745)  
+  **Authors:** Tebatso Gorgina Moape, Absolom Muzambi, Bester Chimbo  
+  **Introduction:** This paper summarizes the overall effects and trends of machine learning and deep learning methods in the field of sign language recognition through meta-analysis, reveals significant heterogeneity among studies and fills the gap in systematic review.
+
+- **A Survey of Dynamic Sign Language Recognition**[CSA 2025] [[paper]](https://www.c-s-a.org.cn/html/2025/5/9879.htm)  
+  **Authors:**Wang Zhekai, Feng Yunxia, Wang Jiawen  
+  **Introduction:** This paper reviews the current development status, methods, datasets and evaluation indicators of dynamic sign language recognition technology based on deep learning, analyzes the challenges and shortcomings of existing methods, and looks forward to future research directions.
+   
 ## Sign language translation
 - **Automatic Sign Language Analysis: A Survey and the Future beyond Lexical Meaning**[22nd NETA 2018] [[paper]](https://d.wanfangdata.com.cn/conference/10402801)  
   **Authors:** Ankita Wadhawan, Parteek Kumar  
@@ -68,6 +140,30 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Zeyu Liang, Huailing Li, Jianping Chai  
   **Introduction:** This paper reviews the research progress of sign language translation (SLT), including the basic model, Transformer framework, four types of subtasks, challenges and future directions.
 
+- **A survey on Sign Language machine translation**[ESA 2023] [[paper]](https://www.sciencedirect.com/science/article/pii/S0957417422020115)  
+  **Authors:** Adrián Núñez-Marcos, Olatz Perez-de-Viñaspre, Gorka Labaka  
+  **Introduction:** This study systematically reviews the development of sign language translation (SLT), introduces the background and mainstream datasets, and summarizes the challenges and future research directions.
+
+- **Machine translation from text to sign language: a systematic review**[UAIS 2023] [[paper]](https://link.springer.com/article/10.1007/s10209-021-00823-1)  
+  **Authors:** Navroz Kaur Kahlon, Williamjeet Singh  
+  **Introduction:** This paper reviews the research progress, method classification, advantages and disadvantages of sign language machine translation and generation, and emphasizes the improvement of automated sign language translation through deep learning and neural networks.
+
+- **Sign Language Recognition and Translation Methods Promote Sign Language Education: A Review**[SMC 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10831194)  
+  **Authors:** Jingchen Zou, Jianqiang Li, Jing Tang, Yuning Huang, Shujie Ding, Xi Xu  
+  **Introduction:** This paper systematically reviews the development, key technical methods and latest progress of sign language recognition and translation (SLRT), analyzes the limitations of existing methods and proposes future research directions.
+
+- **A Survey on Recognition and Translation System of Real-Time Sign Language**[2024 2nd IDICAIEI] [[paper]](https://ieeexplore.ieee.org/abstract/document/10842738)  
+  **Authors:** Kajal Dakhare, Vidhi Wankhede, Prateek Verma  
+  **Introduction:** This paper reviews the latest deep learning methods for real-time sign language recognition systems and their applications in improving sign language understanding accuracy and real-time interaction, providing technical support for improving communication for the deaf and mute.
+
+- **Deep Learning Methods of Dynamic Sign Language Translation: A Rapid Umbrella Review**[ICECET 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10698113)  
+  **Authors:** Lebogang Puree Bopape, Mohohlo Samuel Tsoeu  
+  **Introduction:** This paper presents the first systematic review of existing sign language translation and recognition, analyzing technical methods, geographical background, and linguistic characteristics. It also points out that existing research tends to be data-driven and lacks attention to the complexity of sign language and reasonable evaluation.
+
+- **Review of Intelligent Methods for Sign Language-to-Speech Translation**[ICALTER 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/10819213)  
+  **Authors:** Edita Chafloque Cajusol Trujillo, Luis Felipe Castillo, Juri Aquino  
+  **Introduction:** This paper reviews CNN- and RNN-based sign language-to-speech intelligent systems, analyzes their technical progress and challenges, and emphasizes their potential in enhancing the social inclusion and autonomy of the deaf and mute.
+
 ## Sign language production
 - **Sign language production: A review**[CVPR 2021] [[paper]](https://openaccess.thecvf.com/content/CVPR2021W/ChaLearn/html/Rastgoo_Sign_Language_Production_A_Review_CVPRW_2021_paper.html)  
   **Authors:** Razieh Rastgoo, Kourosh Kiani, Sergio Escalera, Mohammad Sabokrou  
@@ -84,3 +180,11 @@ This repository complements our survey on developments in sign language technolo
 - **Development Status and Trends of Sign Language Digital Humans Based on Intelligent Generative Technologies**[AI 2023] [[paper]](https://qikan.cqvip.com/Qikan/Article/Detail?id=7110318684)  
   **Authors:** Shengeng Tang, Xueyu Xiu, Dan Guo, Richang Hong  
   **Introduction:** This paper reviews the current development status, challenges and future trends of sign language digital humans based on intelligent generation technology.
+
+  - **Techniques for Generating Sign Language a Comprehensive Review**[JIEI:B 2024] [[paper]](https://link.springer.com/article/10.1007/s40031-024-01118-8)  
+  **Authors:** Prachi Pramod Waghmare  
+  **Introduction:** This article reviews the applications of deep learning and natural language processing techniques in sign language generation, highlighting the progress in automatically converting written or spoken language into sign language gestures, the importance of datasets and context, as well as the challenges and opportunities of real-time generation, diverse sign language variants, and ethical issues.
+
+- **A survey on recent advances in Sign Language Production**[ESA 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033481)  
+  **Authors:** Razieh Rastgoo, Kourosh Kiani, Sergio Escalera, Vassilis Athitsos, Mohammad Sabokrou  
+  **Introduction:** This paper reviews the progress of sign language recognition and generation (SLP) technology based on deep learning, and discusses the key components, challenges, methodological framework and future research directions of bidirectional sign language translation systems.
