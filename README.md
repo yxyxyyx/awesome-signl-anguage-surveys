@@ -1,4 +1,4 @@
-This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
+<img width="188" height="176" alt="image" src="https://github.com/user-attachments/assets/8a712da6-51ff-4f69-9245-b28717d8d95b" />This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
 
 # Menu
 - [Surveys](#surveys)
@@ -1051,6 +1051,46 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Mokgadi Setshekgamollo, Mohohlo Tsoeu, and Robyn Verrinder  
   **Introduction:** The first parallel corpus of South African Sign Language and English, containing 5047 sentences, for use in vision-based neural sign language translation research.
 
-- **SASL** [[dataset]](https://ieeexplore.ieee.org/document/10293328) [[paper]](https://ieeexplore.ieee.org/document/10293328)    
-  **Authors:** Mokgadi Setshekgamollo, Mohohlo Tsoeu, and Robyn Verrinder  
-  **Introduction:** The first parallel corpus of South African Sign Language and English, containing 5047 sentences, for use in vision-based neural sign language translation research.
+- **LSE** [[dataset]](https://www.mdpi.com/2313-433X/9/12/262) [[paper]](https://www.mdpi.com/2313-433X/9/12/262)    
+  **Authors:** María Villa-Monedero, Manuel Gil-Martín, Daniel Sáez-Trigueros, Andrzej Pomirski, and Rubén San-Segundo  
+  **Introduction:** Contains 754 Spanish Sign Language (LSE) gestures and their HamNoSys phoneme annotations, 6786 videos, and corresponding skeleton keypoint sequences for automatic sign language movement generation research.
+
+- **SignAvatars** [[dataset]](https://signavatars.github.io/) [[paper]](https://arxiv.org/abs/2310.20436)    
+  **Authors:** Zhengdi Yu, Shaoli Huang, Yongkang Cheng, and Tolga Birdal  
+  **Introduction:** The first large-scale multi-cue 3D sign language motion dataset, containing 70,000 videos (8.34 million frames) of 153 sign language users along with HamNoSys, text, and spoken cues, for research in 3D sign language recognition and generation.
+
+- **3D-LEX v1.0** [[dataset]](https://osf.io/cv276/) [[paper]](https://arxiv.org/abs/2409.01901)    
+  **Authors:** Oline Ranum, Gomer Otterspeer, Jari I. Andersen, Robert G. Belleman, and Floris Roelofsen  
+  **Introduction:** A 3D capture dataset of 1000 American Sign Language and 1000 Dutch Sign Language gestures, integrating high-resolution poses, gestures, and facial features for gesture recognition and semi-automatic annotation research.
+
+- **iSign** [[dataset]](https://huggingface.co/datasets/Exploration-Lab/iSign) [[paper]](https://arxiv.org/abs/2407.05404)    
+  **Authors:** Abhinav Joshi, Romit Mohanty, Mounika Kanakanti, Andesha Mangla, Sudeep Choudhary, Monali Barbate, and Ashutosh Modi  
+  **Introduction:** A benchmark dataset for Indian Sign Language (ISL) containing over 118,000 ISL-English video sentence/phrase pairs, supporting a variety of sign language-natural language processing tasks.
+
+- **SynthSL** [[dataset]](https://github.com/jilliam/SynthSL) [[paper]](https://av.dfki.de/publications/synthsl-expressive-humans-for-sign-language-image-synthesis/)    
+  **Authors:** Jilliam M. Díaz Barros, Chen-Yu Wang, Jameel Malik, Abdalla Arafa, and Didier Stricker  
+  **Introduction:** A large-scale synthetic sign language dataset that provides 2D/3D keypoints, depth maps, normal maps, rendered models, and segmentation masks to support sign language generation, recognition, and translation research.
+
+- **MM-WLAuslan** [[dataset]](https://uq-cvlab.github.io/MM-WLAuslan-Dataset/docs/en/dataset-download) [[paper]](https://arxiv.org/abs/2410.19488)    
+  **Authors:** Xin Shen, Heming Du, Hongwei Sheng, Shuyun Wang, Hui Chen, Huiqiang Chen, Zhuojie Wu, Xiaobiao Du, Jiaying Ying, Ruihan Lu, et al.  
+  **Introduction:** The first large-scale multi-view, multi-modal Australian Sign Language word-level recognition dataset, containing 3,215 annotations and 282,000 videos, supporting multi-view and cross-camera ISLR research.
+
+- **NationalCSL-DP** [[dataset]](https://figshare.com/articles/media/NationalCSL-DP/27261843) [[paper]](https://www.nature.com/articles/s41597-025-04986-x)    
+  **Authors:** Peng Jin, Hongkai Li, Jun Yang, Yazhou Ren, Yuhao Li, Lilan Zhou, Jin Liu, Mei Zhang, Xiaorong Pu, and Siyuan Jing  
+  **Introduction:** The first two-view isolated sign language recognition (ISLR) dataset covering the entire vocabulary of Chinese National Sign Language (CNSL), containing 6,707 sign words and video recordings of 10 signers.
+  
+- **KuSL2023** [[dataset]](https://data.mendeley.com/datasets/6gfrvzfh69/1) [[paper]](https://www.sciencedirect.com/science/article/pii/S2215016125002201)    
+  **Authors:** Karwan M. Hama Rawf  
+  **Introduction:** The first standardized dataset for Kurdish sign language recognition, containing 71,400 annotated images covering 34 gesture categories, can be used for real-time gesture recognition and machine learning model evaluation.
+
+- **Isharah** [[dataset]](https://snalyami.github.io/Isharah_CSLR/?utm_source=chatgpt.com) [[paper]](https://arxiv.org/abs/2506.03615)    
+  **Authors:** Sarah Alyami, Hamzah Luqman, Sadam Al-Azani, Maad Alowaifeer, Yazeed Alharbi, and Yaser Alonaizan  
+  **Introduction:** The first large-scale continuous sign language recognition dataset collected using smartphone cameras in natural multi-scene environments. It contains 30,000 video clips of 18 sign language users and is fully annotated for use in CSLR and sign language translation system development.
+
+- **AzSLD** [[dataset]](https://zenodo.org/records/14222948) [[paper]](https://www.sciencedirect.com/science/article/pii/S2352340924011922)    
+  **Authors:** Nigar Alishzade and Jamaladdin Hasanov  
+  **Introduction:** A multimodal dataset for Azerbaijani Sign Language, containing 30,000 accurately annotated videos captured with two cameras, providing a comprehensive training and evaluation resource for sign language recognition, translation, and synthesis systems.
+  
+- **EmoSign** [[dataset]](https://huggingface.co/datasets/catfang/emosign) [[paper]](https://arxiv.org/abs/2505.17090)    
+  **Authors:** Phoebe Chua, Cathy Mengying Fang, Takehiko Ohkawa, Raja Kushalnagar, Suranga Nanayakkara, and Pattie Maes  
+  **Introduction:** The first emotion-labeled American Sign Language (ASL) video dataset, containing 200 videos with open-ended emotion descriptions, annotated by professional deaf signers, providing a benchmark for multimodal emotion recognition in sign language.    
