@@ -1,4 +1,4 @@
-<img width="188" height="176" alt="image" src="https://github.com/user-attachments/assets/8a712da6-51ff-4f69-9245-b28717d8d95b" />This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
+This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
 
 # Menu
 - [Surveys](#surveys)
@@ -35,6 +35,8 @@
   **Introduction:** This paper reviews the latest progress, typical methods and challenges in sign language recognition, translation and generation, and looks forward to the future development direction of this field.
 
 - **Sign language recognition systems: A decade systematic literature review**[ACME 2021] [[paper]](https://link.springer.com/article/10.1007/s11831-019-09384-2)
+        
+        
         
         
         
