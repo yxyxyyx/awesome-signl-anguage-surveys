@@ -1,4 +1,4 @@
-# awesome-signl-anguage-surveys
+<img width="188" height="98" alt="image" src="https://github.com/user-attachments/assets/4cafed0d-1f5f-4036-b16c-73a665ff8bd6" /># awesome-signl-anguage-surveys
 This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
 
 # Menu
@@ -871,5 +871,156 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Han Zhang, Rotem Shalev-Arkushin, Vasileios Baltatzis, Connor Gillis, Gierad Laput, Raja Kushalnagar, Lorna C. Quandt, Leah Findlater, Abdelkareem Bedri, and Colin Lea  
   **Introduction:** This paper combines large language models with video generation technology to jointly model the manual and non-manual features of sign language to generate natural ASL videos that are grammatically accurate and rich in facial expressions and body language.  
 
-## Dataset
-###      
+## Dataset 
+- **RWTH-BOSTON-50** [[dataset]](https://www-i6.informatik.rwth-aachen.de/aslr/database-rwth-boston-50.php) [[paper]](https://link.springer.com/chapter/10.1007/11550518_50)    
+  **Authors:** Morteza Zahedi, Daniel Keysers, Thomas Deselaers, and Hermann Ney  
+  **Introduction:** RWTH-BOSTON-50 was recorded by three signers in a controlled environment with two perspectives and covers 483 segments of 50 common ASL words.
+
+- **Purdue RVL-SLLL ASL** [[dataset]](https://engineering.purdue.edu/RVL/Database/ASL/asl-database-front.htm) [[paper]](https://docs.lib.purdue.edu/ecetr/338/)    
+  **Authors:** Ronnie Wilbur and Avinash C. Kak  
+  **Introduction:** The RVL-SLLL ASL Database was collected by Purdue University and contains hand shape, finger spelling, digit, word movement, and short text recorded by 14 deaf signers under controlled and uncontrolled lighting. It is used for ASL automatic recognition research.
+
+- **RWTH-BOSTON-104** [[dataset]](https://www-i6.informatik.rwth-aachen.de/aslr/database-rwth-boston-104.php) [[paper]](https://aclanthology.org/L08-1469/)    
+  **Authors:** Philippe Dreuw, Carol Neidle, Vassilis Athitsos, Stanley Sclaroff, and Hermann Ney  
+  **Introduction:** Based on the Boston University ASL sentence library, this video contains 201 sentences recorded by three signers, shot from multiple perspectives and annotated with vocabulary and language models.
+
+- **SIGNUM** [[dataset]](https://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/) [[paper]](https://www.sign-lang.uni-hamburg.de/lrec/pub/10006.pdf)    
+  **Authors:** Ulrich von Agris, Karl-Friedrich Kraiss  
+  **Introduction:** TThis dataset, created by the RWTH Aachen University in Germany, uses a single camera to record German sign language continuous recognition data. It aims to support research on large-vocabulary, signer-independent automatic sign language recognition.
+
+- **RWTH-BOSTON-400** [[dataset]](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104) [[paper]](https://aclanthology.org/L08-1469/)    
+  **Authors:** Philippe Dreuw, Carol Neidle, Vassilis Athitsos, Stanley Sclaroff, and Hermann Ney  
+  **Introduction:** Based on the Boston University ASL sentence library, this dataset contains approximately 400 sentences from five signers, recorded from multiple perspectives, and annotated with vocabulary and language models for continuous sign language recognition research.
+
+- **Corpus NGT** [[dataset]](https://archive.mpi.nl/tla/islandora/object/tla:1839_00_0000_0000_0004_DF8E_6?asOfDateTime=2018-03-02T11:00:00.000Z) [[paper]](https://pure.mpg.de/rest/items/item_1187628/component/file_1189592/content)    
+  **Authors:** Onno A. Crasborn and IEP Zwitserlood  
+  **Introduction:** A corpus of Dutch Sign Language, consisting of 2,375 conversation videos annotated with ELAN, publicly available for download.
+
+- **RWTH-PHOENIX-Weather** [[dataset]](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/details/rwth-phoenix/index.php) [[paper]](https://aclanthology.org/L12-1503/)    
+  **Authors:** Jens Forster, Christoph Schmidt, Thomas Hoyoux, Oscar Koller, Uwe Zelle, Justus H. Piater, and Hermann Ney  
+  **Introduction:** A large-vocabulary video corpus of German sign language, based on weather forecast recordings, with gesture variant annotations and spoken alignments, for statistical sign language recognition and translation research.
+
+- **ASLG-PC12** [[dataset]](https://achrafothman.net/site/english-asl-gloss-parallel-corpus-2012-aslg-pc12/) [[paper]](https://www.sign-lang.uni-hamburg.de/lrec/pub/12019.pdf)    
+  **Authors:** Achraf Othman and Mohamed Jemni  
+  **Introduction:** A large English-American Sign Language parallel corpus containing over 100 million sentence pairs, freely available online for research in sign language processing and statistical machine translation.
+  
+- **Dicta-Sign** [[dataset]](https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/) [[paper]](https://www.sign-lang.uni-hamburg.de/lrec/pub/12016.pdf)    
+  **Authors:** Silke Matthes, Thomas Hanke, Anja Regen, Jakob Storz, Satu Worseck, Eleni Efthimiou, Athanasia-Lida Dimou, Annelies Braffort, John Glauert, and Eva Safar  
+  **Introduction:** Contains semi-spontaneous corpora of four European sign languages, annotated with iLex, for research in sign language recognition, translation, language modeling, and generation.
+
+- **BSL Corpus** [[dataset]](https://bslcorpusproject.org/projects/) [[paper]](https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/97f6a096-0e1d-4872-b922-0e72ace5e905/content)    
+  **Authors:** Adam Schembri, Jordan Fenlon, Ramas Rentelis, Sally Reynolds, and Kearsy Cormier  
+  **Introduction:** A British Sign Language video corpus covering lexical, syntactic, and non-manual features, continuously annotated and translated for use in sign language research, teaching, and development of automatic translation systems.
+
+- **S-pot** [[dataset]](https://research.cs.aalto.fi/cbir/data/s-pot/) [[paper]](https://aclanthology.org/L14-1377/)    
+  **Authors:** Ville Viitaniemi, Tommi Jantunen, Leena Savolainen, Matti Karppa, and Jorma Laaksonen  
+  **Introduction:** Finnish Sign Language Continuous Recognition Benchmark, consisting of 5539 videos, ground-level annotations, and evaluation tools for evaluating automatic sign language recognition performance.
+
+- **CUNY ASL Motion-Capture** [[dataset]](https://www.sciencedirect.com/science/article/abs/pii/S0885230813000879) [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0885230813000879)    
+  **Authors:** Pengfei Lu and Matt Huenerfauth  
+  **Introduction:** An American Sign Language motion capture corpus recording detailed hand and body movements for generating and evaluating understandable ASL animations.
+
+- **LSA16** [[dataset]](https://facundoq.github.io/datasets/lsa16/) [[paper]](https://journal.info.unlp.edu.ar/JCST/article/view/518)    
+  **Authors:** Franco Ronchetti, Facundo Quiroga, César Armando Estrebou, and Laura Cristina Lanzarini  
+  **Introduction:** Contains 800 images of 16 hand shapes recorded by 10 non-signers in an indoor environment, for hand shape recognition research.
+
+- **LSE-Sign** [[dataset]](http://lse-sign.bcbl.eu/web-busqueda/) [[paper]](https://link.springer.com/article/10.3758/s13428-014-0560-1)    
+  **Authors:** Eva Gutierrez-Sigut, Brendan Costello, Cristina Baus, and Manuel Carreiras  
+  **Introduction:** An online Spanish Sign Language database containing 2,400 signed and 2,700 non-signed items with detailed grammatical, motor, and non-gestural information for experimental material selection.
+  
+- **ASLA-Leap** [[dataset]](https://github.com/WenjinTao/ASLA-Leap) [[paper]](https://www.mdpi.com/1424-8220/18/10/3554)    
+  **Authors:** Wenjin Tao, Ze-Hao Lai, Ming C. Leu, and Zhaozheng Yin  
+  **Introduction:** The American Sign Language alphabet dataset, collected using the Leap Motion controller, contains 26 signs performed by 5 subjects, with 500 samples per sign.
+
+- **MS-ASL** [[dataset]](https://www.microsoft.com/en-us/research/project/ms-asl/downloads/) [[paper]](https://arxiv.org/abs/1812.01053)    
+  **Authors:** Hamid Reza Vaezi Joze and Oscar Koller  
+  **Introduction:** Contains 25,000+ annotated videos, 1000 categories, and 200+ signers, for sign language recognition research and model evaluation in unconstrained environments.
+
+- **RWTH-PHOENIX-2014T** [[dataset]](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Camgoz_Neural_Sign_Language_CVPR_2018_paper.pdf)    
+  **Authors:** Necati Cihan Camgoz, Simon Hadfield, Oscar Koller, Hermann Ney, and Richard Bowden  
+  **Introduction:** A dataset for continuous German sign language recognition, containing 386 weather program videos, sign language gloss annotations, and spoken language alignments, for multi-signer and signer-independent recognition research.
+
+- **Deep JSLC** [[dataset]](https://aclanthology.org/L18-1670/) [[paper]](https://aclanthology.org/L18-1670/)    
+  **Authors:** Heike Brock and Kazuhiro Nakadai  
+  **Introduction:** Japanese Sign Language Continuous Recognition Dataset, containing annotated videos for training and evaluating sign language recognition models.
+
+- **KETI** [[dataset]](https://arxiv.org/abs/1811.11436) [[paper]](https://arxiv.org/abs/1811.11436)    
+  **Authors:** Sang-Ki Ko, Chang Jo Kim, Hyedong Jung, and Choongsang Cho  
+  **Introduction:** Korean Sign Language dataset, containing 14,672 high-quality videos, for research on human gesture sign language translation based on human key points.
+
+- **ASL-100-RGBD** [[dataset]](https://nyu.databrary.org/volume/1062) [[paper]](https://arxiv.org/abs/1906.02851)    
+  **Authors:** Longlong Jing, Elahe Vahdani, Matt Huenerfauth, and Yingli Tian  
+  **Introduction:** The American Sign Language RGB-D video dataset contains 42 videos with 100 gestures each, with full skeleton, facial, and depth annotations for multimodal sign language recognition research.
+
+- **ChicagoFSWild** [[dataset]](https://home.ttic.edu/~klivescu/ChicagoFSWild.htm#download) [[paper]](https://arxiv.org/abs/1908.10546)    
+  **Authors:** Bowen Shi, Aurora Martinez Del Rio, Jonathan Keane, Diane Brentari, Greg Shakhnarovich, and Karen Livescu  
+  **Introduction:** A dataset of American Sign Language fingerspelling in the wild, containing 7304 sequences recorded and annotated by 160–260 signers.
+  
+- **ChicagoFSWild+** [[dataset]](https://home.ttic.edu/~klivescu/ChicagoFSWild.htm#download) [[paper]](https://arxiv.org/abs/1908.10546)    
+  **Authors:** Bowen Shi, Aurora Martinez Del Rio, Jonathan Keane, Diane Brentari, Greg Shakhnarovich, and Karen Livescu  
+  **Introduction:** A dataset of American Sign Language fingerspelling in the wild, containing 55232 sequences recorded and annotated by 160–260 signers.
+
+- **INCLUDE** [[dataset]](https://www.kaggle.com/datasets/yuvrajjoshi1110/include-50/data) [[paper]](https://dl.acm.org/doi/10.1145/3394171.3413528)    
+  **Authors:** Advaith Sridhar, Rohith Gandhi Ganesan, Pratyush Kumar, and Mitesh Khapra  
+  **Introduction:** Indian Sign Language dataset, containing 4,287 videos, 263 sign words, and covering 15 word classes, for sign language recognition research and model evaluation.
+
+- **BSL-1K** [[dataset]](https://www.robots.ox.ac.uk/~vgg/research/bsl1k/) [[paper]](https://arxiv.org/abs/2007.12131)    
+  **Authors:** Samuel Albanie, Gül Varol, Liliane Momeni, Triantafyllos Afouras, Joon Son Chung, Neil Fox, and Andrew Zisserman  
+  **Introduction:** A large-scale British Sign Language dataset containing 1,000 hours of video and a 1,000-sign vocabulary for continuous gesture recognition and sign language translation research.
+
+- **AUTSL** [[dataset]](https://cvml.ankara.edu.tr/datasets/) [[paper]](https://arxiv.org/abs/2008.00932)    
+  **Authors:** Ozge Mercanoglu Sincan and Hacer Yalim Keles  
+  **Introduction:** A large-scale multimodal Turkish Sign Language dataset containing 226 gestures performed by 43 signers, 38,336 video samples, and RGB, depth, and skeleton information for sign language recognition and benchmark evaluation.
+
+- **WLASL** [[dataset]](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed) [[paper]](https://arxiv.org/abs/1910.11006)    
+  **Authors:** Dongxu Li, Cristian Rodriguez, Xin Yu, and Hongdong Li  
+  **Introduction:** A large-scale word-level American Sign Language video dataset containing over 2,000 words and over 100 signers, for word-level sign language recognition and model benchmarking.
+
+- **K-RSL** [[dataset]](https://krslproject.github.io/krsl20/) [[paper]](https://aclanthology.org/2020.conll-1.51.pdf)    
+  **Authors:** Alfarabi Imashev, Medet Mukushev, Vadim Kimmelman, and Anara Sandygulova  
+  **Introduction:** The Kazakh-Russian Sign Language dataset contains 5,200 videos recording 20 common gestures and their non-manual components, which is used to study the impact of non-manual features on sign language recognition.
+
+- **Dicta-Sign-LSF-v2** [[dataset]](https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/) [[paper]](https://aclanthology.org/2020.lrec-1.740/)    
+  **Authors:** Valentin Belissen, Annelies Braffort, and Michèle Gouiffès  
+  **Introduction:** French Sign Language dialogue corpus, containing 11 hours of video and 35,000 gesture units from 16 signers, with both lexical and non-lexical annotations, for use in sign language comprehension and recognition research.
+
+- **CSL-Daily** [[dataset]](https://ustc-slr.github.io/datasets/2021_csl_daily/) [[paper]](https://arxiv.org/abs/2105.12397)    
+  **Authors:** Hao Zhou, Wengang Zhou, Weizhen Qi, Junfu Pu, and Houqiang Li  
+  **Introduction:** A large-scale continuous Chinese sign language translation dataset covering daily life topics, providing spoken translations and annotation-level annotations for end-to-end SLT research.
+
+- **Content4All** [[dataset]](https://www.cvssp.org/data/c4a-news-corpus/) [[paper]](https://arxiv.org/abs/2105.02351)    
+  **Authors:** Necati Cihan Camgöz, Ben Saunders, Guillaume Rochette, Marco Giovanelli, Giacomo Inches, Robin Nachtrab-Ribback, and Richard Bowden  
+  **Introduction:** The dataset contains six data sets totaling 190 hours of news footage, 20 hours of which are annotated by deaf experts. It provides sign language video and subtitle alignment and baseline translation for research and development of practical sign language applications.
+
+- **How2Sign** [[dataset]](https://how2sign.github.io/) [[paper]](https://arxiv.org/abs/2008.08143)    
+  **Authors:** Amanda Duarte, Shruti Palaskar, Lucas Ventura, Deepti Ghadiyaram, Kenneth DeHaan, Florian Metze, Jordi Torres, and Xavier Giro-i-Nieto  
+  **Introduction:** A multimodal, multi-view continuous American Sign Language (ASL) dataset containing over 80 hours of sign language video with corresponding speech, text, and depth information, and a subset of 3D poses for sign language recognition, translation, and generation research.
+
+- **LIBRAS-UFOP** [[dataset]](https://www.kaggle.com/datasets/andersonls/libras-ufop-dataset/data) [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417420309143)    
+  **Authors:** Lourdes Ramirez Cerna, Edwin Escobedo Cardenas, Dayse Garcia Miranda, David Menotti, and Guillermo Camara-Chavez  
+  **Introduction:** A public multimodal dataset containing 56 highly similar sign languages, providing complete RGB-D and skeleton information, and verified by sign language experts for sign language recognition research.
+
+- **LSFB-CONT** [[dataset]](https://lsfb.info.unamur.be/#dataset) [[paper]](https://ieeexplore.ieee.org/document/9534336/)    
+  **Authors:** Jérôme Fink, Benoît Frénay, Laurence Meurant, and Anthony Cleve  
+  **Introduction:** A large-scale Catalan Sign Language dataset suitable for continuous and isolated sign recognition, with benchmark experiments to evaluate the performance of deep learning models.
+
+- **LSFB-ISOL** [[dataset]](https://lsfb.info.unamur.be/#dataset) [[paper]](https://ieeexplore.ieee.org/document/9534336/)    
+  **Authors:** Jérôme Fink, Benoît Frénay, Laurence Meurant, and Anthony Cleve  
+  **Introduction:** A subset of LSFB-CONT suitable for isolated SLR.
+
+- **KArSL** [[dataset]](https://hamzah-luqman.github.io/KArSL/) [[paper]](https://dl.acm.org/doi/10.1145/3423420)    
+  **Authors:** Ala Addin I. Sidig, Hamzah Luqman, Sabri Mahmoud, and Mohamed Mohandes  
+  **Introduction:** Contains 502 Arabic sign language gestures, repeated 50 times each by three professional signers and recorded using a multimodal Kinect V2, for sign language recognition research and benchmarking.
+
+- **ASL-Homework-RGBD** [[dataset]](https://databrary.org/volume/1249) [[paper]](https://aclanthology.org/2022.signlang-1.11/)    
+  **Authors:** Saad Hassan, Matthew Seita, Larwan Berke, Yingli Tian, Elaine Gale, Sooyeon Lee, and Matt Huenerfauth  
+  **Introduction:** Contains videos of 45 fluent and non-fluent ASL speakers recorded with Kinect v2, annotated with grammatical features and non-manual markers, for studying ASL fluency and developing sign language recognition algorithms.
+
+- **CISLR** [[dataset]](https://huggingface.co/datasets/Exploration-Lab/CISLR) [[paper]](https://aclanthology.org/2022.emnlp-main.707/)    
+  **Authors:** Abhinav Joshi, Ashwani Bhat, Priya Gole, Shashwat Gupta, Shreyansh Agarwal, Ashutosh Modi, et al.  
+  **Introduction:** Contains videos of approximately 4,700 Indian Sign Language words for word-level recognition and provides a prototype-based one-shot learning baseline model.    
+
+- **LSA64** [[dataset]](http://facundoq.github.io/datasets/lsa64/) [[paper]](https://arxiv.org/abs/2310.17429)    
+  **Authors:** Franco Ronchetti, Facundo Manuel Quiroga, César Estrebou, Laura Lanzarini, and Alejandro Rosete  
+  **Introduction:** Contains 3,200 Argentinian Sign Language gesture videos recorded by 10 subjects, covering a total of 64 gestures, for sign language recognition and related machine learning research.
+    
