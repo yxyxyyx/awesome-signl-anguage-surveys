@@ -35,7 +35,11 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Dan Guo, Shengeng Tang, Richang Hong, Meng Wang  
   **Introduction:** This paper reviews the latest progress, typical methods and challenges in sign language recognition, translation and generation, and looks forward to the future development direction of this field.
 
-- **Sign language recognition systems: A decade systematic literature review**[ACME 2021] [[paper]](https://link.springer.com/article/10.1007/s11831-019-09384-2)  
+- **Sign language recognition systems: A decade systematic literature review**[ACME 2021] [[paper]](https://link.springer.com/article/10.1007/s11831-019-09384-2)
+        
+        
+        
+        
   **Authors:** Dan Guo, Shengeng Tang, Richang Hong, Meng Wang  
   **Introduction:** This paper reviews the latest progress, typical methods and challenges in sign language recognition, translation and generation, and looks forward to the future development direction of this field.
 
@@ -306,137 +310,234 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Pigou, Lionel, Dieleman, Sander, Kindermans, Pieter-Jan, Schrauwen, Benjamin  
   **Introduction:** This paper proposes an automatic sign language recognition system based on Kinect, CNN, and GPU acceleration, which achieves high-accuracy recognition of 20 Italian gestures and generalizes to unseen users and environments.
 
-- **Attention-based 3D-CNNs for large-vocabulary sign language recognition**[TCSVT 2018] [[paper]]](https://ieeexplore.ieee.org/document/8466903)  
+- **Attention-based 3D-CNNs for large-vocabulary sign language recognition**[TCSVT 2018] [[paper]](https://ieeexplore.ieee.org/document/8466903)  
   **Authors:** Huang, Jie, Zhou, Wengang, Li, Houqiang, Li, Weiping  
   **Introduction:** This paper proposes an attention-based 3D-CNN framework to automatically extract spatiotemporal features from videos and select key actions for efficient sign language recognition. 
 
-- **A Deep Neural Framework for Continuous Sign Language Recognition by Iterative Training**[TMM 2019] [[paper]]](https://ieeexplore.ieee.org/document/8598757)  
+- **A Deep Neural Framework for Continuous Sign Language Recognition by Iterative Training**[TMM 2019] [[paper]](https://ieeexplore.ieee.org/document/8598757)  
   **Authors:** Cui, Runpeng, Liu, Hu, Zhang, Changshui  
   **Introduction:** This paper proposes an iteratively optimized continuous sign language recognition framework based on deep convolutional neural networks and bidirectional recurrent neural networks, which significantly improves the recognition performance through multimodal fusion.
 
-- **Hand Gesture Recognition for Sign Language Using 3DCNN**[Access 2020] [[paper]]](https://ieeexplore.ieee.org/document/9078786)  
+- **Hand Gesture Recognition for Sign Language Using 3DCNN**[Access 2020] [[paper]](https://ieeexplore.ieee.org/document/9078786)  
   **Authors:** Al-Hammadi, Muneer, Muhammad, Ghulam, Abdul, Wadood, Alsulaiman, Mansour, Bencherif, Mohamed A., Mekhtiche, Mohamed Amine  
   **Introduction:** This paper proposes a deep convolutional neural network gesture recognition method based on transfer learning, which achieves high-precision recognition on different sign language datasets. 
 
-- **Vision-based hand gesture recognition using deep learning for the interpretation of sign language**[ESA 2021] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421010484)  
+- **Vision-based hand gesture recognition using deep learning for the interpretation of sign language**[ESA 2021] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421010484)  
   **Authors:** Sharma, Sakshi, Singh, Sukhwinder  
   **Introduction:** This paper proposes a compact and efficient convolutional neural network model that achieves nearly 100% gesture recognition accuracy on Indian Sign Language and American Sign Language datasets while being robust to rotation and scaling.  
 
-- **ELM based two-handed dynamic turkish sign language (TSL) word recognition**[ESA 2021] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421006461)  
+- **ELM based two-handed dynamic turkish sign language (TSL) word recognition**[ESA 2021] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421006461)  
   **Authors:** Katilmis, Zekeriya, Karakuzu, Cihan  
   **Introduction:** This paper proposes a Turkish Sign Language dynamic vocabulary recognition system based on Leap Motion and feature dimensionality reduction, using the ML-KELM classifier to achieve high accuracy and stable performance.  
 
-- **An optimized generative adversarial network based continuous sign language classification**[ESA 2021] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421007077)  
+- **An optimized generative adversarial network based continuous sign language classification**[ESA 2021] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417421007077)  
   **Authors:** Elakkiya, R, Vijayakumar, Pandi, Kumar, Neeraj  
   **Introduction:** This paper proposes a method based on hyperparameter optimized generative adversarial networks (H-GANs) for efficiently and accurately classifying manual and non-manual gestures of sign language in continuous videos, and improves recognition performance while maintaining low complexity.
 
-- **Sign language recognition based on R (2+ 1) D with spatial-temporal-channel attention**[THMS 2022] [[paper]]](https://ieeexplore.ieee.org/document/9702523)  
+- **Sign language recognition based on R (2+ 1) D with spatial-temporal-channel attention**[THMS 2022] [[paper]](https://ieeexplore.ieee.org/document/9702523)  
   **Authors:** Han, Xiangzu, Lu, Fei, Yin, Jianqin, Tian, Guohui, Liu, Jun  
   **Introduction:** An improved R(2+1)D model is proposed, combined with a lightweight spatiotemporal channel attention module, which effectively separates and enhances the spatial, temporal and channel features in sign language videos, thereby improving sign language recognition performance on multiple datasets.
 
-- **Hear Sign Language: A Real-Time End-to-End Sign Language Recognition System**[TMC 2022] [[paper]]](https://ieeexplore.ieee.org/document/9261114)  
+- **Hear Sign Language: A Real-Time End-to-End Sign Language Recognition System**[TMC 2022] [[paper]](https://ieeexplore.ieee.org/document/9261114)  
   **Authors:** Wang, Zhibo, Zhao, Tengda, Ma, Jinxin, Chen, Hongkai, Liu, Kaixin, Shao, Huajie, Wang, Qian, Ren, Ju  
   **Introduction:** This paper proposes DeepSLR, an end-to-end real-time sign language recognition system based on an attention mechanism. It uses multi-channel IMU and sEMG sensors to capture arm and finger movements, achieving high-accuracy continuous sign language translation without gesture segmentation.
 
-- **Spatial--temporal enhanced network for continuous sign language recognition**[TCSVT 2023] [[paper]]](https://ieeexplore.ieee.org/document/10185608)  
+- **Spatial--temporal enhanced network for continuous sign language recognition**[TCSVT 2023] [[paper]](https://ieeexplore.ieee.org/document/10185608)  
   **Authors:** Yin, Wenjie, Hou, Yonghong, Guo, Zihui, Liu, Kailin  
   **Introduction:** This paper proposes a spatiotemporal enhancement network that effectively extracts gesture and facial dynamic features through spatial-visual alignment and temporal feature difference modules, thereby improving the performance of continuous sign language recognition.
 
-- **A hybrid approach for Bangla sign language recognition using deep transfer learning model with random forest classifier**[ESA 2023] [[paper]]](https://www.sciencedirect.com/science/article/pii/S0957417422019327)  
+- **A hybrid approach for Bangla sign language recognition using deep transfer learning model with random forest classifier**[ESA 2023] [[paper]](https://www.sciencedirect.com/science/article/pii/S0957417422019327)  
   **Authors:** Das, Sunanda, Imtiaz, Md Samir, Neom, Nieb Hasan, Siddique, Nazmul, Wang, Hui  
   **Introduction:** This paper proposes a hybrid model of convolutional neural networks and random forest classifiers that combines deep transfer learning to achieve efficient automatic recognition of Bengali sign language (numbers and letters), and verifies its accuracy and feasibility on a public dataset.
 
-- **Continuous sign language recognition for hearing-impaired consumer communication via self-guidance network**[TCE 2023] [[paper]]](https://ieeexplore.ieee.org/document/10359133)  
+- **Continuous sign language recognition for hearing-impaired consumer communication via self-guidance network**[TCE 2023] [[paper]](https://ieeexplore.ieee.org/document/10359133)  
   **Authors:** Xue, Wanli, Kang, Ze, Guo, Leming, Yang, Shourui, Yuan, Tiantian, Chen, Shengyong  
   **Introduction:** This paper proposes a self-guided network (SGN) framework to enhance the feature representation of continuous sign language recognition through spatial, temporal and category constraints, significantly improving the recognition performance on multiple CSLR benchmark datasets.
 
-- **Interactive attention and improved GCN for continuous sign language recognition**[BSPC 2023] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S1746809423003646)  
+- **Interactive attention and improved GCN for continuous sign language recognition**[BSPC 2023] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1746809423003646)  
   **Authors:** Guo, Qi, Zhang, Shujun, Tan, Liwei, Fang, Ke, Du, Yinghao  
   **Introduction:** This paper proposes a continuous sign language recognition method based on an interactive attention mechanism and an improved hand movement decoupling GCN. By fusing RGB and skeleton features and introducing a cascaded attention module, efficient spatiotemporal modeling of bimanual movements is achieved, thereby improving CSLR performance.
 
-- **A two-stream sign language recognition network based on keyframe extraction method**[ESA 2024] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417424011345)  
+- **A two-stream sign language recognition network based on keyframe extraction method**[ESA 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417424011345)  
   **Authors:** Liu, Tianyu, Tao, Tangfei, Zhao, Yizhe, Zhu, Jieli  
   **Introduction:** This paper proposes a sign language recognition method that combines keyframe extraction and a full sign language dual-stream network, which effectively summarizes video information and focuses on hand features, achieving excellent performance on multiple sign language datasets.
 
-- **Spatial Temporal Aggregation for Efficient Continuous Sign Language Recognition**[TETCI 2024] [[paper]]](https://ieeexplore.ieee.org/document/10488467)  
+- **Spatial Temporal Aggregation for Efficient Continuous Sign Language Recognition**[TETCI 2024] [[paper]](https://ieeexplore.ieee.org/document/10488467)  
   **Authors:** Hu, Lianyu, Gao, Liqing, Liu, Zekang, Liu, Wei  
   **Introduction:** This paper proposes the STAgg method, which effectively reduces the computational and memory overhead of continuous sign language recognition by aggregating similar frames into a unified representation, while maintaining or even improving the recognition accuracy.
 
-- **American Sign language fingerspelling recognition in the wild with spatio temporal feature extraction and multi-task learning**[ESA 2024] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417423034036)  
+- **American Sign language fingerspelling recognition in the wild with spatio temporal feature extraction and multi-task learning**[ESA 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417423034036)  
   **Authors:** Pannattee, Peerawat, Kumwilaisak, Wuttipong, Hansakunbuntheung, Chatchawarn, Thatphithakkul, Nattanun, Kuo, C-C Jay  
   **Introduction:** In this paper, we propose a fingerspelling recognition system that combines VTCNN temporal feature extraction, multi-task learning, supervised contrastive learning, and CTC/attention joint decoding, achieving state-of-the-art performance on the ChicagoFSWild and ChicagoFSWild+ datasets.
 
-- **An ultra-low-computation model for understanding sign languages**[ESA 2024] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417424006481)  
+- **An ultra-low-computation model for understanding sign languages**[ESA 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417424006481)  
   **Authors:** Fallah, Mohammad K, Najafi, Mohammadreza, Gorgin, Saeid, Lee, Jeong-A  
   **Introduction:** A low-computation sign language recognition method is proposed. Through image abstraction and fully connected neural networks, high-precision recognition (ASL, ISL, BSL) is achieved while significantly reducing model size and computational overhead.
 
-- **Word separation in continuous sign language using isolated signs and post-processing**[ESA 2024] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S095741742400561X)  
+- **Word separation in continuous sign language using isolated signs and post-processing**[ESA 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S095741742400561X)  
   **Authors:** Rastgoo, Razieh, Kiani, Kourosh, Escalera, Sergio  
   **Introduction:** A two-stage model is proposed, which uses CNN+SVD+LSTM trained with isolated gestures and a post-processing algorithm to achieve efficient detection and recognition of isolated gesture boundaries in continuous sign language videos.
 
-- **StepNet: Spatial-temporal part-aware network for isolated sign language recognition**[TOMM 2024] [[paper]]](https://arxiv.org/abs/2212.12857)  
+- **StepNet: Spatial-temporal part-aware network for isolated sign language recognition**[TOMM 2024] [[paper]](https://arxiv.org/abs/2212.12857)  
   **Authors:** Shen, Xiaolong, Zheng, Zhedong, Yang, Yi  
   **Introduction:** We propose StepNet, an RGB-based spatiotemporal component-aware network that captures hand and facial features through component-level spatial and temporal modeling, achieving competitive accuracy on multiple sign language recognition benchmarks.
 
-- **MSE-GCN: A Multiscale Spatiotemporal Feature Aggregation Enhanced Efficient Graph Convolutional Network for Dynamic Sign Language Recognition**[TETCI 2024] [[paper]]](https://ieeexplore.ieee.org/document/10799160)  
+- **MSE-GCN: A Multiscale Spatiotemporal Feature Aggregation Enhanced Efficient Graph Convolutional Network for Dynamic Sign Language Recognition**[TETCI 2024] [[paper]](https://ieeexplore.ieee.org/document/10799160)  
   **Authors:** Naz, Neelma, Sajid, Hasan, Ali, Sara, Hasan, Osman, Ehsan, Muhammad Khurram  
   **Introduction:** This paper proposes a multi-scale efficient graph convolutional network (MSE-GCN), combined with a spatiotemporal joint attention mechanism, to achieve high-precision and low-computational cost feature extraction and classification in skeleton sign language recognition.
 
 ### Multimodal collaborative semantic enhancement
-- **Large-Vocabulary Continuous Sign Language Recognition Based on Transition-Movement Models**[ITSMC 2007] [[paper]]](https://ieeexplore.ieee.org/document/4032919)  
+- **Large-Vocabulary Continuous Sign Language Recognition Based on Transition-Movement Models**[ITSMC 2007] [[paper]](https://ieeexplore.ieee.org/document/4032919)  
   **Authors:** Fang, Gaolin; Gao, Wen; Zhao, Debin  
   **Introduction:** This paper proposes a transition movement model (TMM) method to effectively handle adjacent gesture transitions in large-vocabulary continuous sign languages ​​through dynamic clustering and iterative segmentation.
 
-- **Taiwan sign language (TSL) recognition based on 3D data and neural networks**[ESA 2009] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417407005210)  
+- **Taiwan sign language (TSL) recognition based on 3D data and neural networks**[ESA 2009] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417407005210)  
   **Authors:** Lee, Yung-Hui, Tsai, Cheng-Yueh  
   **Introduction:** The system based on 3D gesture data and neural network proposed in this paper can accurately recognize Taiwanese Sign Language static gestures with an average accuracy of 96.58% and has good robustness.
 
-- **Discriminative Exemplar Coding for Sign Language Recognition With Kinect**[T-Cybern 2013] [[paper]]](https://ieeexplore.ieee.org/document/6544211)  
+- **Discriminative Exemplar Coding for Sign Language Recognition With Kinect**[T-Cybern 2013] [[paper]](https://ieeexplore.ieee.org/document/6544211)  
   **Authors:** Sun, Chao; Zhang, Tianzhu; Bao, Bing-Kun; Xu, Changsheng; Mei, Tao  
   **Introduction:** This paper proposes a Discriminative Sample Coding (DEC) method to select the most discriminative samples from Kinect videos through multi-instance learning, thereby achieving efficient recognition of sign language videos.
 
-- **Semantic boundary detection with reinforcement learning for continuous sign language recognition**[TCSVT 2020] [[paper]]](https://ieeexplore.ieee.org/document/9106402)  
+- **Semantic boundary detection with reinforcement learning for continuous sign language recognition**[TCSVT 2020] [[paper]](https://ieeexplore.ieee.org/document/9106402)  
   **Authors:** Wei, Chengcheng; Zhao, Jian; Zhou, Wengang; Li, Houqiang  
   **Introduction:** This paper proposes a semantic boundary detection method based on reinforcement learning, which accurately aligns video frames and sign language words through multi-scale feature learning to achieve weakly supervised continuous sign language recognition.
 
-- **L-sign: Large-vocabulary sign gestures recognition system**[THMS 2022] [[paper]]](https://ieeexplore.ieee.org/document/9714154)  
+- **L-sign: Large-vocabulary sign gestures recognition system**[THMS 2022] [[paper]](https://ieeexplore.ieee.org/document/9714154)  
   **Authors:** Zheng, Zhiwen; Wang, Qingshan; Yang, Dejun; Wang, Qi; Huang, Wei; Xu, Yinlong  
   **Introduction:** This paper proposes an L-sign system based on a smart bracelet. It uses entropy matching to segment gestures and combines a three-branch CNN with semantic voting to achieve large-vocabulary sign language recognition. The average accuracy of 200 commonly used gestures exceeds 90%.
 
-- **A sign language recognition system with pepper, lightweight-transformer, and LLM**[arXiv 2023] [[paper]]](https://arxiv.org/abs/2309.16898)  
+- **A sign language recognition system with pepper, lightweight-transformer, and LLM**[arXiv 2023] [[paper]](https://arxiv.org/abs/2309.16898)  
   **Authors:** Lim, JongYoon; Sa, Inkyu; MacDonald, Bruce; Ahn, Ho Seok  
   **Introduction:** This study proposes a method that combines lightweight deep learning with a large language model, enabling the Pepper robot to understand American Sign Language and generate natural gesture and voice responses, thereby achieving efficient and intuitive non-verbal human-computer interaction.
 
-- **The ASL Dataset for Real-Time Recognition and Integration with LLM Services**[IJET 2024] [[paper]]](https://ijet.ise.pw.edu.pl/index.php/ijet/article/view/10.24425-ijet.2024.152513)  
+- **The ASL Dataset for Real-Time Recognition and Integration with LLM Services**[IJET 2024] [[paper]](https://ijet.ise.pw.edu.pl/index.php/ijet/article/view/10.24425-ijet.2024.152513)  
   **Authors:** Chwesiuk, Michał, Popis, Piotr  
   **Introduction:** This study verified the high accuracy of American Sign Language (ASL) recognition using a multi-user gesture image dataset and machine learning methods, demonstrating that individual differences have limited impact on performance, providing new insights for improving the reliability of automatic sign language recognition systems and barrier-free communication technologies.
 
-- **Cross-Modal Adaptive Prototype Learning for Continuous Sign Language Recognition**[T-CSVT 2025] [[paper]]](https://ieeexplore.ieee.org/document/10896751)  
+- **Cross-Modal Adaptive Prototype Learning for Continuous Sign Language Recognition**[T-CSVT 2025] [[paper]](https://ieeexplore.ieee.org/document/10896751)  
   **Authors:** Wei, Dong; Yang, Xu-Hua; Weng, Yiyang; Lin, Xuanyu; Hu, Hongxiang; Liu, Sheng  
   **Introduction:** This paper proposes CAP-SLR, a continuous sign language recognition method that combines keyframe extraction, multi-scale convolutional attention, and cross-modal adaptive prototype learning. It effectively alleviates the problems of spatiotemporal redundancy and weak supervision, and achieves high-precision recognition on multiple datasets.
 
-- **A structure-based disentangled network with contrastive regularization for sign language recognition**[ESA 2025] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417425002453)  
+- **A structure-based disentangled network with contrastive regularization for sign language recognition**[ESA 2025] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417425002453)  
   **Authors:** Gao, Liqing; Zhu, Lei; Hu, Lianyu; Shi, Peng; Wan, Liang; Feng, We  
   **Introduction:** This paper proposes a structured decoupled network (SD-Net), which improves the accuracy of sign language recognition by separating sentence templates and content entities and fusing their features while utilizing temporal context modeling.
   
-- **SCOPE: Sign Language Contextual Processing with Embedding from LLMs**[AAAI 2025] [[paper]]](https://arxiv.org/abs/2409.01073)  
+- **SCOPE: Sign Language Contextual Processing with Embedding from LLMs**[AAAI 2025] [[paper]](https://arxiv.org/abs/2409.01073)  
   **Authors:** Liu, Yuqi; Zhang, Wenqian; Ren, Sihan; Huang, Chengyu; Yu, Jingyi; Xu, Lan  
   **Introduction:** This paper proposes SCOPE, a visual sign language recognition and translation framework that combines conversational context and large-scale language models, and releases a new dataset containing 72 hours of Chinese sign language conversations.
       
 ## Sign language translation
 ### Rule-based statistical visual pattern mapping
-- **Increasing adaptability of a speech into sign language translation system**[ESA 2013] [[paper]]](https://www.sciencedirect.com/science/article/abs/pii/S0957417412010202)  
+- **Increasing adaptability of a speech into sign language translation system**[ESA 2013] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417412010202)  
   **Authors:** López-Ludeña, Verónica; San-Segundo, Rubén; Morcillo, Carlos González; López, Juan Carlos; Muñoz, José M Pardo  
   **Introduction:** This paper proposes an improved speech-to-sign language translation system that achieves rapid adaptation to new tasks or new semantic domains by enhancing the adaptability of speech recognition, machine translation, and 3D animation modules, while maintaining low error rate and high translation quality while reducing adaptation costs.
 
-- **Statistical Machine Translation for Greek to Greek Sign Language Using Parallel Corpora Produced via Rule-Based Machine Translation**[CIMA@ICTAI 2018] [[paper]]](https://www.semanticscholar.org/paper/Statistical-Machine-Translation-for-Greek-to-Greek-Kouremenos-Ntalianis/bfe80a47199e1f5be29fe58eb7a7c9410dffbdd5)  
+- **Statistical Machine Translation for Greek to Greek Sign Language Using Parallel Corpora Produced via Rule-Based Machine Translation**[CIMA@ICTAI 2018] [[paper]](https://www.semanticscholar.org/paper/Statistical-Machine-Translation-for-Greek-to-Greek-Kouremenos-Ntalianis/bfe80a47199e1f5be29fe58eb7a7c9410dffbdd5)  
   **Authors:** Dimitris Kouremenos; Klimis S. Ntalianis; Georgios Siolas; Andreas Stafylopatis  
   **Introduction:** This paper presents a Rule-Based Machine Translation (RBMT) system that enables high-quality Greek text to Greek Sign Language (GSL) glossed corpus creation, facilitating statistical machine translation and overcoming challenges related to GSL's lack of written form and grammar knowledge.
   
-- **Rule-based Machine Translation into Ukrainian Sign Language Using Concept Dictionary**[AAAI 2025] [[paper]]](https://arxiv.org/abs/2409.01073)  
-  **Authors:** Liu, Yuqi; Zhang, Wenqian; Ren, Sihan; Huang, Chengyu; Yu, Jingyi; Xu, Lan  
-  **Introduction:** This paper proposes SCOPE, a visual sign language recognition and translation framework that combines conversational context and large-scale language models, and releases a new dataset containing 72 hours of Chinese sign language conversations.
+- **Rule-based Machine Translation into Ukrainian Sign Language Using Concept Dictionary**[ICTERI 2019] [[paper]](https://www.semanticscholar.org/paper/Rule-based-Machine-Translation-into-Ukrainian-Sign-Lozynska-Davydov/1fddc314d4b8fd9e696005e2bea9e8181f384b6d)  
+  **Authors:** Olga Lozynska, Maksym Davydov, Volodymyr V. Pasichnyk, and Nataliia Veretennikova  
+  **Introduction:** This paper proposes a rule-based translation method for Ukrainian spoken to sign language based on a concept dictionary. By establishing a five-category relationship model between words, symbols, and concepts, it effectively addresses the challenges of grammatical differences and non-one-to-one translation between the two languages.
 
 ### Deep learning-based temporal-spatial pattern modeling
+- **Hierarchical Recurrent Deep Fusion Using Adaptive Clip Summarization for Sign Language Translation**[TIP 2019] [[paper]](https://ieeexplore.ieee.org/document/8846585)  
+  **Authors:** Guo, Dan; Zhou, Wengang; Li, Anyang; Li, Houqiang; Wang, Meng  
+  **Introduction:** This paper proposes a hierarchical deep recurrent fusion (HRF) framework, which combines adaptive temporal coding with multimodal fusion to effectively improve the performance of vision-based sign language translation.
+
+- **Multi-Information Spatial–Temporal LSTM Fusion Continuous Sign Language Neural Machine Translation**[Access 2020] [[paper]](https://ieeexplore.ieee.org/document/9265176)  
+  **Authors:** Qinkun Xiao, Xin Chang, Xue Zhang, Xing Liu  
+  **Introduction:** This paper proposes a bidirectional spatiotemporal LSTM framework with attention (Bi-ST-LSTM-A) to achieve high-precision continuous sign language recognition without the need for sentence segmentation and tedious annotation.
+
+- **Improving Sign Language Translation With Monolingual Data by Sign Back-Translation**[CVPR 2021] [[paper]](https://arxiv.org/abs/2105.12397)  
+  **Authors:** Zhou, Hao; Zhou, Wengang; Qi, Weizhen; Pu, Junfu; Li, Houqiang  
+  **Introduction:** This paper introduces a back-translation method, SignBT, for synthesizing parallel sign language text data from large-scale spoken text, and contributes a new large-scale continuous SLT dataset CSL-Daily.
+
+- **Graph-Based Multimodal Sequential Embedding for Sign Language Translation**[T-MM 2021] [[paper]](https://ieeexplore.ieee.org/document/9556136)  
+  **Authors:** Tang, Shengeng; Guo, Dan; Hong, Richang; Wang, Meng  
+  **Introduction:** This paper proposes MSeqGraph, a graph-based multimodal sequence embedding network for sign language translation (SLT) that captures intra- and inter-modal correlations, learns temporal cues through graph embedding units, and employs hierarchical stacking and temporal decoding for effective weakly supervised SLT.
+
+- **Conditional Sentence Generation and Cross-Modal Reranking for Sign Language Translation**[T-MM 2021] [[paper]](https://ieeexplore.ieee.org/document/9447976)  
+  **Authors:** Zhao, Jian; Qi, Weizhen; Zhou, Wengang; Duan, Nan; Zhou, Ming; Li, Houqiang  
+  **Introduction:** This paper proposes a novel SLT framework that leverages a large-scale text corpus to generate accurate spoken translations from sign language videos through word verification, conditional sentence generation, and cross-modal reordering.
+
+- **Spatial-Temporal Multi-Cue Network for Sign Language Recognition and Translation**[T-MM 2021] [[paper]](https://ieeexplore.ieee.org/document/9354538)  
+  **Authors:** Zhou, Hao; Zhou, Wengang; Zhou, Yun; Li, Houqiang  
+  **Introduction:** This paper proposes a Spatio-Temporal Multi-Cues (STMC) network that utilizes spatial and temporal multi-cue modules with joint optimization and segmented attention to enhance vision-based sign language understanding.
+
+ - **MLSLT: Towards Multilingual Sign Language Translation**[CVPR 2022] [[paper]](https://ieeexplore.ieee.org/document/9878501) [[code]](https://github.com/MLSLT/SP-10)  
+  **Authors:** Yin, Aoxiong; Zhao, Zhou; Jin, Weike; Zhang, Meng; Zeng, Xingshan; He, Xiaofei  
+  **Introduction:** This study introduces ML-SLT, the first multilingual sign language translation model, leveraging dynamic routing mechanisms to efficiently share parameters across languages, achieving superior performance on the new Spreadthesign-Ten dataset and enabling zero-shot translation between sign and spoken languages.
+ 
+- **Automatic translation of sign language with multi-stream 3D CNN and generation of artificial depth maps**[ESA 2023] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417422024125)  
+  **Authors:** De Castro, Giulia Zanon; Guerra, Rubia Reis; Guimarães, Frederico Gadelha  
+  **Introduction:** This study proposes a multi-stream deep learning model using 3D CNN and GAN-generated depth maps to accurately identify BSL, ISL, and KSL, achieving high performance and providing interpretable insights into key features.
+
+- **Overcoming Modality Bias in Question-Driven Sign Language Video Translation**[T-CSVT 2024] [[paper]](https://ieeexplore.ieee.org/document/10572012)[[code]](https://github.com/glq-1992/QSL)  
+  **Authors:** Gao, Liqing; Lyu, Fan; Shi, Peng; Zhu, Lei; Pu, Junfu; Wan, Liang; Feng, Wei  
+  **Introduction:** The "Gloss-Bridged Translator" (GBT) method is proposed to bridge question text and sign language video through sign language annotations to achieve cross-modal semantic alignment. 
+
+- **Improving End-to-end Sign Language Translation with Adaptive Video Representation Enhanced Transformer**[T-CSVT 2024] [[paper]](https://ieeexplore.ieee.org/document/10466749)[[code]](https://github.com/LzDddd/AVRET)  
+  **Authors:** Liu, Zidong; Wu, Jiasong; Shen, Zeyu; Chen, Xin; Wu, Qianyu; Gui, Zhiguo; Senhadji, Lotfi; Shu, Huazhong  
+  **Introduction:** This study proposes AVRET, an adaptive video representation enhanced Transformer, which achieves end-to-end continuous sign language translation through adaptive masks, local segment self-attention, and adaptive fusion modules. 
+
+- **Sign Language to Text Translation with Computer Vision: Bridging the Communication Gap**[ICDXA 2024] [[paper]](https://ieeexplore.ieee.org/document/10470532)  
+  **Authors:** Thong, So Xue; Tan, Eng Lip; Goh, Ching Pang  
+  **Introduction:** This study proposes a real-time sign language translation system based on CNN and LSTM to achieve high-precision gesture recognition and sentence generation.
+
+- **C2RL: Content and Context Representation Learning for Gloss-free Sign Language Translation and Retrieval**[T-CSVT 2025] [[paper]](https://arxiv.org/abs/2408.09949)  
+  **Authors:** Chen, Zhigang; Zhou, Benjia; Huang, Yiqing; Wan, Jun; Hu, Yibo; Shi, Hailin; Liang, Yanyan; Lei, Zhen; Zhang, Du  
+  **Introduction:** In this paper, we propose C2RL, an unannotated sign language representation learning method, which achieves robust feature extraction from sign language videos by jointly optimizing implicit content learning and explicit context learning.
+
+### Large Language Model (LLM)-based sign language translation
+- **Leveraging Large Language Models With Vocabulary Sharing For Sign Language Translation**[ICASSPW 2023] [[paper]](https://ieeexplore.ieee.org/document/10193533)  
+  **Authors:** Lee, Huije; Kim, Jung-Ho; Hwang, Eui Jun; Kim, Jaewoo; Park, Jong C.  
+  **Introduction:** This paper introduces Ko-GPT-Trinity-1.2B+VS, a vocabulary-sharing large-scale language model for Korean Sign Language translation, which effectively addresses the problem of scarce SLT data.
+
+- **Factorized Learning Assisted with Large Language Model for Gloss-free Sign Language Translation**[arXiv 2024] [[paper]](https://arxiv.org/abs/2403.12556)  
+  **Authors:** Zhigang Chen; Benjia Zhou; Jun Li; Jun Wan; Zhen Lei; Ning Jiang; Quan Lu; Guoqing Zhao  
+  **Introduction:** This paper proposes the FLa-LLM method to achieve annotation-free sign language translation by training a visual encoder and a large language model in stages.
+
+- **An Innovative System for Real-Time Translation from American Sign Language (ASL) to Spoken English using a Large Language Model (LLM)**[UEMCON 2024] [[paper]](https://www.semanticscholar.org/paper/An-Innovative-System-for-Real-Time-Translation-from-Johnson-Rashad/b9d4c9deffd1ffbbd091111c6d97200b95942ea6)  
+  **Authors:** Johnson, Larry Emerson; Rashad, Sherif  
+  **Introduction:** This study proposes a real-time American Sign Language (ASL) to English translation system that combines Leap Motion and a large language model to improve the communication efficiency of hearing-impaired people in daily life.
+       
+- **Enhanced Sign Language Translation between American Sign Language (ASL) and Indian Sign Language (ISL) Using LLMs**[arXiv 2024] [[paper]](https://ieeexplore.ieee.org/abstract/document/11113285)  
+  **Authors:** Malay Kumar, S. Sarvajit Visagan, Tanish Sarang Mahajan, Anisha Natarajan  
+  **Introduction:** This study proposes a hybrid deep learning framework that enables real-time translation between ASL and ISL, achieving high gesture recognition and text correction accuracy while generating smooth sign language videos for seamless communication.
+
+- **Sign2GPT: Leveraging Large Language Models for Gloss-Free Sign Language Translation**[arXiv 2024] [[paper]](https://arxiv.org/abs/2405.04164)[[code]](https://github.com/ryanwongsa/Sign2GPT)  
+  **Authors:** Ryan Wong; Necati Cihan Camgoz; Richard Bowden  
+  **Introduction:** This paper proposes the Sign2GPT framework, which enables annotation-free sign language translation and significantly improves performance on public datasets by leveraging pre-trained vision-language models and lightweight adapters.
+
+- **Using an LLM to Turn Sign Spottings into Spoken Language Sentences**[arXiv 2024] [[paper]](https://arxiv.org/html/2403.10434v1)  
+  **Authors:** Ozge Mercanoglu Sincan; Necati Cihan Camgoz; Richard Bowden  
+  **Introduction:** This paper proposes Spotter+GPT, a hybrid approach that combines a sign language recognizer with a pre-trained large language model for efficient translation of sign language videos into coherent spoken sentences.
+
+- **LLMs are Good Sign Language Translators**[CVPR 2024] [[paper]](https://arxiv.org/abs/2404.00925)  
+  **Authors:** Gong, Jia; Foo, Lin Geng; He, Yixuan; Rahmani, Hossein; Liu, Jun  
+  **Introduction:** This paper proposes SignLLM, a framework that converts sign language videos into language-like representations using vector-quantized visual tokens and codebook alignment, enabling large language models to perform accurate sign language translation without annotations.
+
+- **Enhancing Sign Language Interpretation with Multiheaded CNN, Hand Landmarks and Large Language Model(LLM)**[FMLDS 2024] [[paper]](https://ieeexplore.ieee.org/document/10874050)  
+  **Authors:** Chaitanya Kakade; Nidhi Kadam; Vishal Kaira; Rishi Kewalya  
+  **Introduction:** This study proposed a sign language recognition and translation system that combines a multi-head convolutional neural network and a large language model, which achieves accurate recognition of gestures in different contexts and converts them into grammatically correct and easy-to-understand text.
+
+- **Beyond Words: AuralLLM and SignMST-C for Sign Language Production and Bidirectional Accessibility**[arXiv 2025] [[paper]](https://arxiv.org/abs/2501.00765)  
+  **Authors:** Yulong Li; Yuxuan Zhang; Feilong Tang; Ming Hu; Zhixiang Lu; Haochen Xue; Jianghao Wu; Mian Zhou; Kang Dang; Chong Li; Yifang Wang; Imran Razzak; Jionglong Su  
+  **Introduction:** This study establishes a new benchmark for SLP and SLT tasks by introducing large sign language datasets (CNText2Sign and CNSign) and high-performance models (AuraLLM and SignMST-C).
+
+- **GFTLS-SLT: Gloss-Free Transformer Based Lexical and Semantic Awareness Framework for Multimodal Sign Language Translation**[T-MM 2025] [[paper]](https://ieeexplore.ieee.org/document/10891585)  
+  **Authors:** Zhang, Jiangtao; Wang, Qingshan; Wang, Qi  
+  **Introduction:** This paper proposes GFTLS-SLT, an annotation-free multimodal sign language translation framework that achieves gesture boundary understanding and semantic alignment through vocabulary and global semantic awareness modules, achieving the performance of annotated supervised methods on public datasets.
+
+- **HYBRID MODEL COLLABORATION FOR SIGN LANGUAGE TRANSLATION WITH VQ-VAE AND RAG ENHANCED LLMS**[ICLR 2025] [[paper]](https://openreview.net/forum?id=7kRFnSFN89)[[code]](https://github.com/VRG-SLT/VRG-SLT-demos)  
+  **Authors:** Ma, Jian; Wang, Wenguan; Yang, Yi; Guan, Weili; Zheng, Feng  
+  **Introduction:** This paper proposes a VRG-SLT framework that encodes sign language sequences into discrete gesture representations through a hierarchical VQ-VAE and combines fine-tuning a large language model with retrieval-augmented generation to achieve high-quality sign language to spoken language translation.
+
+- **LLM-Powered AI Tutors with Personas for d/Deaf and Hard-of-Hearing Online Learners**[arXiv 2024] [[paper]](https://arxiv.org/abs/2411.09873)  
+  **Authors:** Cheng, Haocong; Chen, Si; Perdriau, Christopher; Huang, Yun  
+  **Introduction:** This paper investigates how an intelligent tutoring system based on a large language model can improve the interactive experience of deaf-hard of hearing learners through an AI tutor with experience in DHH education, and offers recommendations for designing more inclusive LLM systems.
+
   
 ## Sign language production
