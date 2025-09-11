@@ -758,3 +758,118 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** S Ravikumar, P Dimple Praharsha, J Sri Harsha Priya, V Naga Rohit Sai  
   **Introduction:** This paper proposes an interactive sign language learning system that provides learners with a high-precision and comprehensive sign language learning experience through sign language recognition and text-to-motion conversion functions, combined with multilingual support and voice output, and using image processing, machine learning, and natural language processing technologies.
   
+- **Real-Time Sign Language and Audio Conversion Using AI**[CCIS 2024] [[paper]](https://ieeexplore.ieee.org/document/10931891)  
+  **Authors:** A Boobal, Chennama Charan Kesava Reddy, Challa Akshay Reddy, Chaluvadi Bala Venkata Sai Rohith, et al.  
+  **Introduction:** This paper introduces a system that uses artificial intelligence, computer vision, and natural language processing technologies to convert audio into sign language and gesture signals in real time to enhance the communication capabilities of the hearing-impaired and blind.
+
+### Semantic Control-Driven Sign Language Generation
+- **An automatic rule-based translation system to Spanish Sign Language (LSE)**[NTHCI 2009] [[paper]](https://link.springer.com/chapter/10.1007/978-1-84882-352-5_1)  
+  **Authors:** Sandra Baldassarri, Francisco Royo-Santas  
+  **Introduction:** This paper introduces a system for automatic translation of Spanish into Spanish Sign Language (LSE), which achieves versatile and high-quality 3D animation output through morphosyntactic analysis, grammatical conversion, and sign language generation modules.
+
+- **Arabic text to Arabic sign language translation system for the deaf and hearing-impaired community**[SLPAT 2011] [[paper]](https://aclanthology.org/W11-2311/)  
+  **Authors:** Abdulaziz Almohimeed, Mike Wald, Robert I Damper  
+  **Introduction:** This paper proposes a machine translation system for translating text into Arabic Sign Language (ArSL), enabling access to sign language information in the field of education by developing a corpus in collaboration with deaf native speakers.
+
+- **A rule-based translation from written Spanish to Spanish Sign Language glosses**[CSL 2014] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0885230813000867)  
+  **Authors:** Jordi Porta, Fernando López-Colino, Javier Tejedor, José Colás  
+  **Introduction:** This paper proposes a rule-based machine translation system for Spanish to Spanish Sign Language (LSE) annotations, enabling sign language translation through dependency parsing and a transfer architecture.
+
+- **A rule triggering system for automatic text-to-sign translation**[UAIS 2016] [[paper]](https://link.springer.com/article/10.1007/s10209-015-0413-4)  
+  **Authors:** Michael Filhol, Mohamed N Hadjadj, Benoît Testu  
+  **Introduction:** This paper proposes a rule-based machine translation system from French text to French Sign Language (LSF). By triggering generation rules through text processing, it realizes sign language grammar generation and explores the application of machine translation in sign language processing.
+
+- **KAZOO: a sign language generation platform based on production rules**[UAIS 2016] [[paper]](https://link.springer.com/article/10.1007/s10209-015-0415-2)  
+  **Authors:** Annelies Braffort, Michael Filhol, Maxime Delorme, Laurence Bolot, Annick Choisier, Cyril Verrecchia  
+  **Introduction:** This paper introduces KAZOO, a web application based on a virtual signer, which generates sign language animations through SL corpus analysis and the AZee language model, achieving automatic content synthesis and verification.
+
+- **A frame-based approach for capturing semantics from Arabic text for text-to-sign language MT**[IJST 2016] [[paper]](https://link.springer.com/article/10.1007/s10772-015-9290-8)  
+  **Authors:** Abdelaziz Lakhfif, Mohamed Tayeb Laskri  
+  **Introduction:** This paper proposes an Arabic semantic parser based on Interlingua to transform Arabic text into deep semantic representations to support Arabic-to-sign language machine translation and natural language processing applications.
+
+- **Automatic translation of Arabic text-to-Arabic sign language**[UAIS 2019] [[paper]](https://link.springer.com/article/10.1007/s10209-018-0622-8)  
+  **Authors:** Hamzah Luqman, Sabri A Mahmoud  
+  **Introduction:** This paper proposes a rule-based machine translation system to convert Arabic text into Arabic Sign Language (ArSL) sentences and provides a parallel corpus of 600 sentences in the health field to support research.
+  
+- **ATLASLang MTS 1: Arabic text language into Arabic sign language machine translation system**[PCS 2019] [[paper]](https://www.sciencedirect.com/science/article/pii/S1877050919300699)  
+  **Authors:** Mourad Brour, Abderrahim Benabbou  
+  **Introduction:** This paper proposes the ATLASLang MTS 1 system, which uses morphosyntactic analysis and a gesture database to translate Arabic text into Arabic sign language videos displayed in real time by a 3D virtual avatar.
+
+- **Sign language generation system based on Indian sign language grammar**[TALLIP 2020] [[paper]](https://dl.acm.org/doi/10.1145/3384202)  
+  **Authors:** Sugandhi, Parteek Kumar, Sanmeet Kaur  
+  **Introduction:** This paper implements a system that automatically translates English text into Indian Sign Language (ISL) and displays it through a 3D avatar, enabling efficient, human-computer interactive communication without artificial sign language.
+
+- **A novel natural language processing (NLP)-based machine translation model for English to Pakistan sign language translation**[CC 2020] [[paper]](https://link.springer.com/article/10.1007/s12559-020-09731-7)  
+  **Authors:** Nabeel Sabir Khan, Adnan Abid, Kamran Abid  
+  **Introduction:** This paper highlights the importance of developing effective translation models for Pakistani Sign Language (PSL) speakers to bridge the communication barrier between deaf and hearing individuals and improve information access.
+
+- **Machine translation from spoken language to sign language using pre-trained language model as encoder**[LREC 2020] [[paper]](https://aclanthology.org/2020.signlang-1.23/)  
+  **Authors:** Taro Miyazaki, Yusuke Morita, Masanori Sano  
+  **Introduction:** This paper proposes a machine translation method based on an encoder-decoder model combined with post-translation replacement of proper nouns, which can effectively improve the translation quality from Japanese to Japanese Sign Language.
+
+- **Translating Spanish into Spanish Sign Language: Combining rules and data-driven approaches**[WTLRMT 2022] [[paper]](https://aclanthology.org/2022.loresmt-1.10/)  
+  **Authors:** Luis Chiruzzo, Euan McGill, Santiago Egea-Gómez, and Horacio Saggion  
+  **Introduction:** This paper significantly improves the performance of neural machine translation from spoken to sign language by leveraging language feature enhancement and pre-training and fine-tuning on large-scale aligned Spanish-Spanish sign language synthetic data.  
+
+- **Modeling intensification for sign language generation: a computational approach**[ACL 2022] [[paper]](https://aclanthology.org/2022.findings-acl.228/)  
+  **Authors:** Mert Inan, Yang Zhong, Sabit Hassan, Lorna Quandt, and Malihe Alikhani  
+  **Introduction:** This paper introduces an enhanced annotation strategy based on sign language linguistics and constructs an enhanced dataset, effectively improving the performance of the sign language generation Transformer model in temporal and spatial rhythm, and significantly improving the quality and human preference of the generated videos.
+
+- **Gloss semantic-enhanced network with online back-translation for sign language production**[ACM MM 2022] [[paper]](https://dl.acm.org/doi/10.1145/3503161.3547830)  
+  **Authors:** Shengeng Tang, Richang Hong, Dan Guo, and Meng Wang  
+  **Introduction:** This paper proposes a semantic enhancement network GEN-OBT based on online back translation. By introducing learnable semantic tags and a bidirectional semantic-gesture consistency mechanism, it significantly improves the accuracy and interpretability of the semantic-to-gesture conversion in sign language generation without the need for prior knowledge.
+
+- **Improving Sign Language Production in the Healthcare Domain Using UMLS and Multi-Task Learning**[PLOP 2024] [[paper]](https://aclanthology.org/2024.cl4health-1.1/)  
+  **Authors:** Jonathan David Mutal, Raphael Rubino, Pierrette Bouillon, Bastien David, Johanna Gerlach, and Irene Strasly  
+  **Introduction:** This paper proposes a multi-task framework that integrates the Unified Medical Language System (UMLS) to generate multi-channel Swiss-French Sign Language output from French written input, significantly improving the accuracy of sign language translation in medical scenarios.
+
+- **Signs as Tokens: An Autoregressive Multilingual Sign Language Generator**[arXiv 2024] [[paper]](https://arxiv.org/abs/2411.17799) [[code]](https://2000zrl.github.io/soke/?utm_source=catalyzex.com)  
+  **Authors:** Ronglai Zuo, Rolandos Alexandros Potamias, Evangelos Ververas, Jiankang Deng, and Stefanos Zafeiriou  
+  **Introduction:** This paper proposes a multilingual sign language generation model called SOKE. It achieves efficient autoregressive generation of 3D gestures through a decoupled word segmenter and a multi-head decoding mechanism. It also introduces a retrieval enhancement method combined with an external dictionary to significantly improve the accuracy and fluency of text-to-sign language conversion.
+
+- **A Sign Language Digital Human System Combining LLM and 3D Animation Technology**[CCL 2024] [[paper]](https://aclanthology.org/2024.ccl-3.44/)  
+  **Authors:** Yang Yang, Ying Zhang, Kaiyu Huang, and Jinan Xu  
+  **Introduction:** This paper proposes a sign language translation system that combines a large language model with 3D animation technology. By optimizing prompt word design and data processing, it achieves more natural and accurate translation without manual annotation.
+
+- **A simple baseline for spoken language to sign language translation with 3d avatars**[ECCV 2024] [[paper]](https://arxiv.org/abs/2401.04730) [[code]](https://github.com/FangyunWei/SLRT)  
+  **Authors:** Ronglai Zuo, Fangyun Wei, Zenggui Chen, Brian Mak, Jiaolong Yang, and Xin Tong  
+  **Introduction:** This paper proposes the Spoken2Sign system, the first system to translate spoken language into 3D sign language. By building an annotated 3D sign language dictionary and training an end-to-end model, it enables the generation of sign language virtual avatars, while simultaneously supporting 3D key point enhancement and multi-view understanding.
+
+- **Exploring the Potential of Generative AI in Song-Signing**[UbiComp 2024] [[paper]](https://dl.acm.org/doi/10.1145/3675094.3678378)  
+  **Authors:** YouJin Choi, JaeYoung Moon, Kyung-Joong Kim, and Jin-Hyuk Hong  
+  **Introduction:** Through user research, this study proposes a sign language song creation tool that integrates a large language model and generative dance AI, using generative artificial intelligence to automate music analysis, lyrics translation, and dance choreography.
+
+- **Generating Signed Language Instructions in Large-Scale Dialogue Systems**[NAACL-HLT 2024] [[paper]](https://aclanthology.org/2024.naacl-industry.13/)  
+  **Authors:** Mert Inan, Katherine Atwell, Anthony Sicilia, Lorna Quandt, and Malihe Alikhani  
+  **Introduction:** This paper introduces the first multimodal conversational AI system that integrates American Sign Language instructions. Through sign language translation driven by a large language model and token-based video retrieval technology, combined with community-involved design, it achieves user experience and high-quality content generation comparable to non-sign language systems in teaching scenarios.
+
+- **Signllm: Sign languages production large language models**[arXiv 2024] [[paper]](https://arxiv.org/abs/2405.10718) [[code]](https://signllm.github.io/?utm_source=catalyzex.com)  
+  **Authors:** Sen Fang, Lei Wang, Ce Zheng, Yapeng Tian, and Chen Chen  
+  **Introduction:** This paper proposes a large multilingual sign language generation model, SignLLM. Through the innovative MLSF and Prompt2LangGloss modes and a reinforcement learning-based training mechanism, it achieves state-of-the-art multilingual sign language generation performance on the Prompt2Sign dataset containing eight sign languages.
+
+- **LLM-based Sign Language Production**[ICMLA 2024] [[paper]](https://ieeexplore.ieee.org/document/10903313)    
+  **Authors:** Wellington Silveira, Luca Mendonça, and Rodrigo De Bem  
+  **Introduction:** This paper proposes a text-to-sign language generation method based on a large language model, which uses LLM to translate text into gestures and synthesize image sequences.
+
+- **A Spatio-Temporal Representation Learning as an Alternative to Traditional Glosses in Sign Language Translation and Production**[AACL-HLT 2025] [[paper]](https://arxiv.org/abs/2407.02854)  
+  **Authors:** Eui Jun Hwang, Sukmin Cho, Huije Lee, Youngwoo Yoon, and Jong C. Park  
+  **Introduction:** This paper proposes a universal annotation-level representation, UniGloR, which extracts dense spatiotemporal features from gesture key points through self-supervised learning, overcoming the limitations of traditional annotations in scalability and dynamic details, and providing a more refined and dynamic alternative representation method for sign language translation and generation.
+
+- **Gloss-driven conditional diffusion models for sign language production**[TOMM 2025] [[paper]](https://dl.acm.org/doi/10.1145/3663572)  
+  **Authors:** Shengeng Tang, Feng Xue, Jingjing Wu, Shuo Wang, and Richang Hong  
+  **Introduction:** This paper proposes a semantic-driven conditional diffusion model (GCDM), which uses the encoded semantic sequence as a priori condition to guide the denoising process and achieves high-quality generation from text to sign language gesture sequences.
+
+- **Linguistics-Vision Monotonic Consistent Network for Sign Language Production**[ICASSP 2025] [[paper]](https://arxiv.org/abs/2412.16944)  
+  **Authors:** Xu Wang, Shengeng Tang, Peipei Song, Shuo Wang, Dan Guo, and Richang Hong  
+  **Introduction:** This paper proposes a Transformer-based Language-Vision Monotonic Consistency Network (LVMCN), which achieves the joint optimization of fine-grained action alignment and coarse-grained semantic consistency through a cross-modal semantic aligner and a multimodal semantic comparator.
+
+- **Beyond Words: AuralLLM and SignMST-C for Precise Sign Language Production and Bidirectional Accessibility**[arXiv 2025] [[paper]](https://arxiv.org/abs/2501.00765)    
+  **Authors:** Yulong Li, Yuxuan Zhang, Feilong Tang, Mian Zhou, Zhixiang Lu, Haochen Xue, Yifang Wang, Kang Dang, and Jionglong Su  
+  **Introduction:** This paper introduces the first unified dataset CNSign/CNText2Sign that supports bidirectional translation of Chinese Sign Language, and proposes the AuraLLM and SignMST-C models, which respectively achieve high-precision sign language generation and direct posture evaluation through decoupled architecture and posture adjustment, and improve translation performance through self-supervised pre-training.
+
+- **Towards AI-driven Sign Language Generation with Non-manual Markers**[CHI 2025] [[paper]](https://arxiv.org/abs/2502.05661)    
+  **Authors:** Han Zhang, Rotem Shalev-Arkushin, Vasileios Baltatzis, Connor Gillis, Gierad Laput, Raja Kushalnagar, Lorna C. Quandt, Leah Findlater, Abdelkareem Bedri, and Colin Lea  
+  **Introduction:** This paper combines large language models with video generation technology to jointly model the manual and non-manual features of sign language to generate natural ASL videos that are grammatically accurate and rich in facial expressions and body language.  
+
+## Dataset
+###      
