@@ -523,6 +523,14 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Chaitanya Kakade; Nidhi Kadam; Vishal Kaira; Rishi Kewalya  
   **Introduction:** This study proposed a sign language recognition and translation system that combines a multi-head convolutional neural network and a large language model, which achieves accurate recognition of gestures in different contexts and converts them into grammatically correct and easy-to-understand text.
 
+- **LLM-Powered AI Tutors with Personas for d/Deaf and Hard-of-Hearing Online Learners**[arXiv 2024] [[paper]](https://arxiv.org/abs/2411.09873)  
+  **Authors:** Cheng, Haocong; Chen, Si; Perdriau, Christopher; Huang, Yun  
+  **Introduction:** This paper investigates how an intelligent tutoring system based on a large language model can improve the interactive experience of deaf-hard of hearing learners through an AI tutor with experience in DHH education, and offers recommendations for designing more inclusive LLM systems.
+
+- **Enhancing Human-Robot Interaction: Integrating ASL Recognition and LLM-Driven Co-Speech Gestures in Pepper Robot with a Compact Neural Network**[UR 2024] [[paper]](https://ieeexplore.ieee.org/document/10597463)  
+  **Authors:** Lim, JongYoon, Sa, Inkyu, MacDonald, Bruce A, Ahn, Ho Seok  
+  **Introduction:** This study proposes a system that combines a compact deep neural network with a large language model, enabling the humanoid robot Pepper to efficiently understand and generate American Sign Language, achieving smooth human-computer non-verbal interaction.
+
 - **Beyond Words: AuralLLM and SignMST-C for Sign Language Production and Bidirectional Accessibility**[arXiv 2025] [[paper]](https://arxiv.org/abs/2501.00765)  
   **Authors:** Yulong Li; Yuxuan Zhang; Feilong Tang; Ming Hu; Zhixiang Lu; Haochen Xue; Jianghao Wu; Mian Zhou; Kang Dang; Chong Li; Yifang Wang; Imran Razzak; Jionglong Su  
   **Introduction:** This study establishes a new benchmark for SLP and SLT tasks by introducing large sign language datasets (CNText2Sign and CNSign) and high-performance models (AuraLLM and SignMST-C).
@@ -534,10 +542,219 @@ This repository complements our survey on developments in sign language technolo
 - **HYBRID MODEL COLLABORATION FOR SIGN LANGUAGE TRANSLATION WITH VQ-VAE AND RAG ENHANCED LLMS**[ICLR 2025] [[paper]](https://openreview.net/forum?id=7kRFnSFN89)[[code]](https://github.com/VRG-SLT/VRG-SLT-demos)  
   **Authors:** Ma, Jian; Wang, Wenguan; Yang, Yi; Guan, Weili; Zheng, Feng  
   **Introduction:** This paper proposes a VRG-SLT framework that encodes sign language sequences into discrete gesture representations through a hierarchical VQ-VAE and combines fine-tuning a large language model with retrieval-augmented generation to achieve high-quality sign language to spoken language translation.
-
-- **LLM-Powered AI Tutors with Personas for d/Deaf and Hard-of-Hearing Online Learners**[arXiv 2024] [[paper]](https://arxiv.org/abs/2411.09873)  
-  **Authors:** Cheng, Haocong; Chen, Si; Perdriau, Christopher; Huang, Yun  
-  **Introduction:** This paper investigates how an intelligent tutoring system based on a large language model can improve the interactive experience of deaf-hard of hearing learners through an AI tutor with experience in DHH education, and offers recommendations for designing more inclusive LLM systems.
-
   
 ## Sign language production
+### Generative Model-Driven Sign Language Generation
+- **Spoken Spanish generation from sign language**[I.C. 2010] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S095354380900099X)  
+  **Authors:** San-Segundo, Rubén; Pardo, José Manuel; Ferreiros, Javier; Sama, Valentín; Barra-Chicote, Roberto; Lucas, Juan Manuel; Sánchez, D; García, Antonio  
+  **Introduction:** This paper proposes a system for converting Spanish Sign Language (LSE) writing into Spanish speech and constructs the first Spanish-LSE parallel corpus.
+
+- **Developing a statistical Turkish sign language translation system for primary school students**[INISTA 2019] [[paper]](https://ieeexplore.ieee.org/document/8778246)  
+  **Authors:** Buz, Buse; Güngör, Tunga  
+  **Introduction:** This paper proposes the first statistical machine translation method from Turkish to Turkish Sign Language for elementary school students and verifies its effectiveness using a parallel corpus.
+
+- **Text2Sign: towards sign language production using neural machine translation and generative adversarial networks**[IJCVI 2020] [[paper]](https://link.springer.com/article/10.1007/s11263-019-01281-2)  
+  **Authors:** Stoll, Stephanie; Camgoz, Necati Cihan; Hadfield, Simon; Bowden, Richard  
+  **Introduction:** This paper proposes a new method that combines neural machine translation and generative adversarial networks to directly convert text into realistic sign language videos, without the need for traditional virtual humans and a large amount of labeled data, achieving end-to-end sign language generation. 
+
+- **Neural sign language synthesis: Words are our glosses**[WACV 2020] [[paper]](https://ieeexplore.ieee.org/document/9093516)  
+  **Authors:** Zelinka, Jan; Kanis, Jakub  
+  **Introduction:** In this paper, we propose a fully end-to-end text-to-sign language skeleton generation method that only uses freely available broadcast data and does not require manual annotation or video segmentation. We achieve effective sign language synthesis through a soft non-monotonic attention mechanism and feature comparison.
+
+- **Skeleton-based Chinese sign language recognition and generation for bidirectional communication between deaf and hearing people**[NN 2020] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S089360802030040X)  
+  **Authors:** Xiao Qinkun, Qin Minying, Yin Yuting  
+  **Introduction:** This paper proposes a bidirectional Chinese sign language recognition and generation framework based on skeleton and recurrent neural networks, which improves the skeleton sequence diversity and recognition accuracy through a two-level probabilistic generation model.
+
+- **Everybody sign now: Translating spoken language to photo realistic sign language video**[arXiv 2020] [[paper]](https://arxiv.org/abs/2011.09846)  
+  **Authors:** Saunders Ben, Camgoz Necati Cihan, Bowden Richard  
+  **Introduction:** This paper proposes SignGAN, a system for generating realistic continuous sign language videos directly from spoken language. It achieves high-quality and controllable sign language video generation by converting skeleton poses through Transformer+MDN and combining pose-conditioned human synthesis and keypoint loss.
+
+- **Adversarial training for multi-channel sign language production**[arXiv 2020] [[paper]](https://arxiv.org/abs/2008.12405)  
+  **Authors:** Saunders Ben, Camgoz Necati Cihan, Bowden Richard  
+  **Introduction:** This paper proposes an adversarial multi-channel sign language generation method, which achieves realistic and complete sign language generation through the game between the Transformer generator and the conditional discriminator, combining manual and non-manual features.
+
+- **Signsynth: Data-driven sign language video generation**[ECCV 2020] [[paper]](https://www.researchgate.net/publication/343851233_SignSynth_Data-Driven_Sign_Language_Video_Generation)  
+  **Authors:** Stephanie Stoll, Simon Hadfield, Richard Bowden  
+  **Introduction:** This paper proposes SignSynth, an end-to-end sign language video generation method that achieves high-definition and natural sign language video generation through gloss2pose and pose2video networks.
+
+- **Generation of indian sign language by sentence processing and generative adversarial networks**[ICISS 2020] [[paper]](https://ieeexplore.ieee.org/document/9315979)  
+  **Authors:** Neel Vasani, Pratik Autee, Samip Kalyani, Ruhina Karani  
+  **Introduction:** This paper proposes a method based on sentence preprocessing and generative adversarial networks to convert input sentences into Indian sign language annotations and generate corresponding skeleton video frames, thereby realizing sentence-to-sign language video conversion.
+
+- **Progressive transformers for end-to-end sign language production**[ECCV 2020] [[paper]](https://arxiv.org/abs/2004.14874) [[code]](https://github.com/BenSaunders27/ProgressiveTransformersSLP)  
+  **Authors:** Ben Saunders, Necati Cihan Camgoz, Richard Bowden  
+  **Introduction:** This paper proposes a Progressive Transformers architecture to convert text into a continuous 3D sign language skeleton sequence through an end-to-end or stacked network.
+
+- **Towards fast and high-quality sign language production**[ACM MM 2021] [[paper]](https://dl.acm.org/doi/10.1145/3474085.3475463)  
+  **Authors:** Wencan Huang, Wenwen Pan, Zhou Zhao, Qi Tian  
+  **Introduction:** This paper proposes a non-autoregressive sign language gesture generation model that combines an external comparator and a spatiotemporal graph convolutional generator to achieve parallel and high-quality sign language gesture generation.
+
+- **Signing at scale: Learning to co-articulate signs for large-scale photo-realistic sign language production**[CVPR 2022] [[paper]](https://arxiv.org/abs/2203.15354) [[code]](https://github.com/BenSaunders27/meineDGS-Translation-Protocols?utm_source=catalyzex.com)  
+  **Authors:** Saunders Ben, Camgoz Necati Cihan, Bowden Richard  
+  **Introduction:** This paper proposes a large-scale sign language generation method that combines FS-Net and SignGAN. By learning dictionary sign language co-articulation and generating realistic skeleton videos, it achieves fluent and understandable sign language sequences in a wide range of language domains.
+
+- **Dynamic GAN for high-quality sign language video generation from skeletal poses using generative adversarial networks**[SC 2022] [[paper]](https://link.springer.com/article/10.1007/s00500-022-07014-x)  
+  **Authors:** B Natarajan, R Elakkiya  
+  **Introduction:** This paper proposes Dynamic GAN, a generative framework based on skeletal poses and character images, to generate high-quality sign language videos without animation.
+
+- **Development of an end-to-end deep learning framework for sign language recognition, translation, and video generation**[Access 2022] [[paper]](https://ieeexplore.ieee.org/document/9905589)  
+  **Authors:** B Natarajan, E Rajalakshmi, R Elakkiya, Ketan Kotecha, Ajith Abraham  
+  **Introduction:** This paper proposes a complete framework that combines CNN+Bi-LSTM gesture recognition with NMT+dynamic GAN sign language generation to achieve high-accuracy text recognition and high-quality sign language video generation.
+
+- **Signnet ii: A transformer-based two-way sign language translation model**[TPAMI 2022] [[paper]](https://ieeexplore.ieee.org/document/9999492)  
+  **Authors:** Lipisha Chaudhary, Tejaswini Ananthanarayana, Enjamamul Hoq, Ifeoma Nwogu  
+  **Introduction:** This paper introduces SignNet II, a bidirectional Transformer-based architecture for sign language processing that improves bidirectional translation performance by jointly training sign-to-text and text-to-sign networks and keypoint embedding metrics.
+
+- **A Pyramid Semi-Autoregressive Transformer with Rich Semantics for Sign Language Production**[Sensors 2022] [[paper]](https://www.mdpi.com/1424-8220/22/24/9606)  
+  **Authors:** Zhenchao Cui, Ziang Chen, Zhaoxin Li, Zhaoqi Wang  
+  **Introduction:** This paper proposes the PSAT-RS model, which effectively generates natural sign language videos through a pyramid semi-autoregressive mechanism and rich semantic embeddings. It outperforms existing autoregressive and non-autoregressive methods in terms of speed and accuracy.
+
+- **There and back again: 3d sign language generation from text using back-translation**[3DV 2022] [[paper]](https://ieeexplore.ieee.org/document/10044459)  
+  **Authors:** Stephanie Stoll, Armin Mustafa, Jean-Yves Guillemaut  
+  **Introduction:** This paper proposes the Text2Pose and Text2Mesh methods to automatically generate 2D pose and 3D sign language mesh sequences from text, and establishes the first benchmark for this task.
+
+- **Spatial-Temporal Consistency Constraints for Chinese Sign Language Synthesis**[ICCADCG 2023] [[paper]](https://link.springer.com/chapter/10.1007/978-981-99-9666-7_11)  
+  **Authors:** Liqing Gao, Peidong Liu, Liang Wan, Wei Feng  
+  **Introduction:** This paper proposes the STCC method, which achieves spatiotemporal consistency of sign language in video splicing by generating intermediate transition frames and hierarchical attention GAN, thereby improving the fluency, realism and comprehensibility of the synthesized video.
+
+- **Sentence2SignGesture: a hybrid neural machine translation network for sign language video generation**[JAIHC 2023] [[paper]](https://link.springer.com/article/10.1007/s12652-021-03640-9)  
+  **Authors:** B Natarajan, R Elakkiya, Moturi Leela Prasad  
+  **Introduction:** This paper proposes an NMT model based on deep stacked GRU to achieve translation of spoken sentences into sign language annotations and generate sign language gesture videos through mapping.
+
+- **Sign Language Motion Generation from Sign Characteristics**[Sensors 2023] [[paper]](https://www.mdpi.com/1424-8220/23/23/9365)  
+  **Authors:** Manuel Gil-Martín, María Villa-Monedero, Andrzej Pomirski, Daniel Sáez-Trigueros, Rubén San-Segundo  
+  **Introduction:** This paper proposes a Transformer-based sign language motion generation method. It generates highly detailed gestures using sign phonemes represented by HamNoSys, and combines it with a stop detection module to achieve high-precision motion generation and termination prediction.
+
+- **Autoregressive sign language production: A gloss-free approach with discrete representations**[{arXiv 2023] [[paper]](https://arxiv.org/abs/2309.12179)  
+  **Authors:** Eui Jun Hwang, Huije Lee, Jong C Park  
+  **Introduction:** This paper proposes SignVQNet, a vector quantization-based unannotated sign language generation method that achieves highly coherent sign language generation through discrete representation and latent layer alignment.
+
+- **Sindiff: Spoken-to-Sign Language Generation Based Transformer Diffusion Model**[PRL 2023] [[paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4611530)  
+  **Authors:** Wuyan Liang, Xiaolong Xu  
+  **Introduction:** This paper proposes SinDiff, a Transformer-based diffuse sign language generation framework, which enables long-sequence spoken language-driven sign language generation through linearly biased multi-head attention and cross-modal alignment.
+
+- **Sign stitching: a novel approach to sign language production**[arXiv 2024] [[paper]](https://arxiv.org/abs/2405.07663)  
+  **Authors:** Harry Walsh, Ben Saunders, Richard Bowden  
+  **Introduction:** This paper proposes a seven-step dictionary sign language concatenation method, combined with SignGAN to achieve natural and coherent text-to-photorealistic sign language video generation.
+
+- **Turkish Sign Language Video Generation from Pose Sequences Using a Conditional GAN Model**[ICCSE 2024] [[paper]](https://ieeexplore.ieee.org/document/10773583)  
+  **Authors:** Feyza Ozkan, Hatice Kubra Tekin, Hacer Yalim Keles  
+  **Introduction:** This paper proposes a cGAN model based on pose sequences and reference images to achieve realistic generation of Turkish sign language videos while preserving finger and arm details.
+
+- **Sign Language Video Generation from Text Using Generative Adversarial Networks**[OMNN 2024] [[paper]](https://link.springer.com/article/10.3103/S1060992X24700851)  
+  **Authors:** R Sreemathy, Param Chordiya, Soumya Khurana, Mousami Turuk  
+  **Introduction:** This paper proposes a cGAN-based Indian Sign Language video generation method to achieve video conversion from text to sign language and generate high-quality and controllable videos.
+
+- **Sign Language Production Using Generative AI**[ICCIRT 2024] [[paper]](https://ieeexplore.ieee.org/document/10921902)  
+  **Authors:** D Karthika Renuka, L Ashok Kumar, KR Harini, L Nithin, PR Rishi Khanna, J Suruthika  
+  **Introduction:** This paper proposes a sign language generation method based on pix2pix CGAN, which converts skeletal key points into realistic movements and realizes natural gesture generation.
+
+- **A Novel Approach for Sign Language Video Generation Using Deep Networks**[ICDSNS 2024] [[paper]](https://ieeexplore.ieee.org/document/10691162)  
+  **Authors:** Sachin Kumar, B Deepa, T Kavitha, M Tamilselvi, V Sathiyapriya, B Natarajan  
+  **Introduction:** This paper proposes VideoGAN, an enhanced GAN method for generating sign language gesture videos from text, achieving high-quality video generation and demonstrating excellent performance on diverse datasets from multiple countries.
+
+- **A Gloss-Free Sign Language Production with Discrete Representation**[FG 2024] [[paper]](https://ieeexplore.ieee.org/document/10581980)  
+  **Authors:** Eui Jun Hwang, Huije Lee, Jong C Park  
+  **Introduction:** This paper proposes SignVQNet, which achieves annotation-free end-to-end sign language generation by combining discrete spatiotemporal representation of hand gestures with directed search and language models.
+
+- **T2S-GPT: Dynamic Vector Quantization for Autoregressive Sign Language Production from Text**[arXiv 2024] [[paper]](https://arxiv.org/abs/2406.07119)  
+  **Authors:** Aoxiong Yin, Haoyuan Li, Kai Shen, Siliang Tang, Yueting Zhuang  
+  **Introduction:** This paper proposes the DVA-VAE model to implement dynamic vector quantization encoding of sign language sequences, combines it with a GPT-style generator for autoregressive sign language generation, and releases the large-scale PHOENIX-News dataset to improve performance.
+
+- **Diversity-Aware Sign Language Production through a Pose Encoding Variational Autoencoder**[FG 2024] [[paper]](https://ieeexplore.ieee.org/document/10581951)  
+  **Authors:** Mohamed Ilyes Lakhal, Richard Bowden  
+  **Introduction:** This paper proposes a diversity-aware sign language generation method, which achieves high-quality sign language image generation with controlled appearance style through variational inference of pose and attribute conditions and a UNet architecture.
+
+- **SeqαGAN: Sign Language Sequence Generation Based on Variational and Adversarial Learning**[TII 2024] [[paper]](https://www.researchgate.net/publication/379841883_SeqaGAN_Sign_Language_Sequence_Generation_Based_on_Variational_and_Adversarial_Learning)  
+  **Authors:** Qinkun Xiao, Lu Li, Yilin Zhu  
+  **Introduction:** This paper proposes SeqαGAN, a skeleton sign language sequence generation model that combines conditional VAE and conditional GAN ​​to improve sign language recognition performance by generating diverse and recognizable data.
+
+- **Semantic-driven diffusion for sign language production with gloss-pose latent spaces alignment**[CVIU 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1077314224001310)  
+  **Authors:** Sheng Chen, Qingshan Wang, Qi Wang  
+  **Introduction:** This paper proposes the SDD-GPLA model to generate high-resolution sign language gestures through sign language vocabulary-gesture latent space alignment and semantically driven diffusion.
+
+- **SignGen: End-to-End Sign Language Video Generation with Latent Diffusion**[ECCV 2024] [[paper]](https://eccv.ecva.net/virtual/2024/poster/2581)  
+  **Authors:** Fan Qi, Yu Duan, Huaiwen Zhang, Changsheng Xu  
+  **Introduction:** This paper proposes an end-to-end text-to-sign language video generation method, which achieves natural sign language generation with full body and facial expressions through multimodal conditions and motion perception framework.
+
+- **Jointly harnessing prior structures and temporal consistency for sign language video generation**[TOMM 2024] [[paper]](https://dl.acm.org/doi/10.1145/3648368)  
+  **Authors:** Yucheng Suo, Zhedong Zheng, Xiaohan Wang, Bang Zhang, Yi Yang  
+  **Introduction:** This paper proposes STCNet to generate continuous and natural sign language videos through structure-aware skeleton and temporal consistency loss.
+
+- **Pose-Guided Fine-Grained Sign Language Video Generation**[ECCV 2024] [[paper]](https://arxiv.org/abs/2409.16709)  
+  **Authors:** Tongkai Shi, Lianyu Hu, Fanhua Shang, Jichao Feng, Peidong Liu, Wei Feng  
+  **Introduction:** This paper proposes PGMM to generate fine-grained and temporally consistent sign language videos through a coarse-grained motion module and a posture fusion module.
+
+- **Neural sign actors: a diffusion model for 3d sign language production from text**[CVPR 2024] [[paper]](https://arxiv.org/abs/2312.02702) [[code]](https://baltatzisv.github.io/neural-sign-actors/?utm_source=catalyzex.com)  
+  **Authors:** Vasileios Baltatzis, Rolandos Alexandros Potamias, Evangelos Ververas, Guanxiong Sun, Jiankang Deng, Stefanos Zafeiriou  
+  **Introduction:** This paper proposes a diffusion-based 4D sign language generation method, which uses an anatomically driven graph neural network to generate realistic 3D sign language avatar sequences from text, significantly improving the authenticity and semantic accuracy of sign language generation.
+
+- **Unsupervised sign language translation and generation**[arXiv 2024] [[paper]](https://arxiv.org/abs/2402.07726)  
+  **Authors:** Zhengsheng Guo, Zhiwei He, Wenxiang Jiao, Xing Wang, Rui Wang, Kehai Chen, Zhaopeng Tu, Yong Xu, Min Zhang  
+  **Introduction:** This paper proposes an unsupervised sign language translation and generation model USLNet, which realizes sign language video and text generation without parallel data through unimodal reconstruction and cross-modal back translation.
+
+- **Sign-Mamba: Advanced Mamba-Based Sign Language Generation**[ICASSP 2025] [[paper]](https://ieeexplore.ieee.org/document/10890373) [[code]](https://peterfanfan.github.io/Sign-Mamba/)  
+  **Authors:** Guanwen Feng, Yilin Zhang, Yunan Li, An Liu, Qiguang Miao  
+  **Introduction:** This paper proposes Sign-Mamba, a two-stage sign language generation framework based on the Mamba state-space model, which generates high-precision sign language skeleton sequences through latent space encoding and prediction.
+
+- **3DSignDiff: Towards 3D Sign Language Gesture Generation**[ICASSP 2025] [[paper]](https://www.researchgate.net/publication/390538952_3DSignDiff_Towards_3D_Sign_Language_Gesture_Generation)  
+  **Authors:** Ronghao Yu, Yun Liu, Xiyue Bai, Rui Yang, Yingna Wu  
+  **Introduction:** This study proposes a diffusion-based 3D sign language generation method, which achieves realistic and semantically accurate dynamic sign language avatars through SMPL-X skeleton and graph neural network training on a large-scale 4D dataset.
+
+- **Sign-idd: Iconicity disentangled diffusion for sign language production**[AAAI 2025] [[paper]](https://arxiv.org/abs/2412.13609) [[code]](https://github.com/NaVi-start/Sign-IDD?utm_source=catalyzex.com)  
+  **Authors:** Shengeng Tang, Jiayi He, Dan Guo, Yanyan Wei, Feng Li, Richang Hong  
+  **Introduction:** This paper proposes the Sign-IDD framework, which models joint associations and skeletal details through image disentanglement and attribute controllable diffusion, achieving more natural and accurate sign language gesture generation.
+
+### Cross-Modal Collaboration-Driven Sign Language Generation
+- **Toward an example-based machine translation from written text to ASL using virtual agent animation**[arXiv 2012] [[paper]](https://arxiv.org/abs/1203.3023)  
+  **Authors:** Mehrez Boulares, Mohamed Jemni  
+  **Introduction:** This paper proposes the Text-Adaptive Sign Language Modeling Language (TASML) to generate natural and expressive ASL animations through semantic annotation, emotion detection and genetic algorithms, thereby making up for the shortcomings of existing automatic sign language translation systems in terms of information and expressiveness.
+
+- **sEditor: A prototype for a sign language interfacing system**[THMS 2014] [[paper]](https://ieeexplore.ieee.org/document/6828758)  
+  **Authors:** Beifang Yi, Xusheng Wang, Frederick C Harris, Sergiu M Dascalu  
+  **Introduction:** This paper proposes a sign language interface system that realizes sign language creation, management and editing through virtual human body and gesture simulation, providing a demonstration for future sign language communication platforms.
+
+- **Arabic text-to-sign (ArTTS) model from automatic SR system**[PCS 2017] [[paper]](https://www.sciencedirect.com/science/article/pii/S1877050917321798)  
+  **Authors:** Omar H Al-Barahamtoshy, Hassanin M Al-Barhamtoshy  
+  **Introduction:** This paper proposes an Arabic Text to Arabic Sign Language (ArTTS) system that generates sign language through speech recognition and 3D virtual characters.
+
+- **Automated 3D sign language caption generation for video**[UAIS 2020] [[paper]](https://link.springer.com/article/10.1007/s10209-019-00668-9)  
+  **Authors:** Nayan Mehta, Suraj Pai, and Sanjay Singh  
+  **Introduction:** This paper proposes a video translation system based on 3D cartoon characters and Indian Sign Language subtitles for classroom teaching, which significantly improves the academic performance and vocabulary acquisition rate of hearing-impaired students.
+
+- **A rule based system for bangla voice and text to bangla sign language interpretation**[STI 2020] [[paper]](https://ieeexplore.ieee.org/document/9350468)  
+  **Authors:** Muhammad Aminur Rahaman, Md Parvez Hossain, Md Masud Rana, Md Arifur Rahman, Tahmina Akter  
+  **Introduction:** This paper proposes a rule-based system to efficiently translate Bengali speech and text into Bengali sign language animation, enabling high-precision communication between non-sign language speakers and sign language users.
+
+ - **ES2ISL: an advancement in speech to sign language translation using 3D avatar animator**[CCECE 2020] [[paper]](https://ieeexplore.ieee.org/document/9255783)  
+  **Authors:** Bhavinkumar Devendrabhai Patel, Harshit Balvantrai Patel, Manthan Ashok Khanvilkar, Nidhi Rajendrakumar Patel, Thangarajah Akilan  
+  **Introduction:** The ES2ISL system proposed in this paper can quickly and efficiently convert English speech into Indian Sign Language animation, enabling high-precision communication between the hearing-impaired and others. 
+
+- **Voice to Indian Sign Language Conversion for Hearing Impaired People**[SAMRIDDHI 2020] [[paper]](https://www.academia.edu/65341486/Voice_to_Indian_Sign_Language_Conversion_for_Hearing_Impaired_People?uc-sb-sw=7756885)  
+  **Authors:** Ashmi Katariya, Vaibhav Rumale, Aishwarya Gholap, Anuprita Dhamale, Ankita Gupta  
+  **Introduction:** This project proposes a system that converts speech input into text and applies Indian Sign Language grammar rules to achieve word-level speech-to-sign language translation.
+
+- **Towards automatic speech to sign language generation**[arXiv 2021] [[paper]](https://arxiv.org/abs/2106.12790) [[code]](https://github.com/kapoorparul/Towards-Automatic-Speech-to-SL)  
+  **Authors:** Parul Kapoor, Rudrabha Mukhopadhyay, Sindhu B Hegde, Vinay Namboodiri, CV Jawahar  
+  **Introduction:** This study proposes the first end-to-end multi-task Transformer model to generate continuous Indian Sign Language video directly from speech, and verifies the effectiveness of the method through a newly collected dataset.
+
+- **An automatic machine translation system for multi-lingual speech to Indian sign language**[MTA 2022] [[paper]](https://link.springer.com/article/10.1007/s11042-021-11706-1)  
+  **Authors:** Amandeep Singh Dhanjal, Williamjeet Singh  
+  **Introduction:** This study proposes the SISLA system, which automatically translates multilingual speech into Indian Sign Language and presents it through a 3D virtual image, significantly improving communication between the hearing-impaired and others.
+
+- **Indian sign language generation from live audio or text for tamil**[ICACCS 2023] [[paper]](https://ieeexplore.ieee.org/document/10112880)  
+  **Authors:** Bandi Rupendra Reddy, Daka Chandra Rup, Mathi Rohith, Meena Belwal  
+  **Introduction:** This paper proposes a model for converting Tamil speech or text into Indian Sign Language animation.
+  
+- **MultiFacet: a multi-tasking framework for speech-to-sign language generation**[ICMI 2023] [[paper]](https://dl.acm.org/doi/10.1145/3610661.3616550)  
+  **Authors:** Mounika Kanakanti, Shantanu Singh, Manish Shrivastava  
+  **Introduction:** This paper proposes a multi-task model that combines speech prosody, text semantics, and facial action unit prediction to generate Indian Sign Language gesture sequences.
+
+- **Real-time Arabic avatar for deaf-mute communication enabled by deep learning sign language translation**[CEE 2024] [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0045790624004026)  
+  **Authors:** Fatma M Talaat, Walid El-Shafai, Naglaa F Soliman, Abeer D Algarni, Fathi E Abd El-Samie, Ali I Siam  
+  **Introduction:** This paper proposes a real-time Arabic sign language avatar system based on deep learning, which enables smooth real-time communication by translating text or speech into avatar movements.
+
+- **Interactive Sign Language Learning System using Deep Learning**[ICSSAI 2024] [[paper]](https://ieeexplore.ieee.org/document/10760668)  
+  **Authors:** S Ravikumar, P Dimple Praharsha, J Sri Harsha Priya, V Naga Rohit Sai  
+  **Introduction:** This paper proposes an interactive sign language learning system that provides learners with a high-precision and comprehensive sign language learning experience through sign language recognition and text-to-motion conversion functions, combined with multilingual support and voice output, and using image processing, machine learning, and natural language processing technologies.
+  
