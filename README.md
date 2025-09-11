@@ -1,4 +1,3 @@
-<img width="188" height="98" alt="image" src="https://github.com/user-attachments/assets/4cafed0d-1f5f-4036-b16c-73a665ff8bd6" /># awesome-signl-anguage-surveys
 This repository complements our survey on developments in sign language technology with a curated list of papers investigating sign language processing, including recognition, translation, and generation.
 
 # Menu
@@ -1024,3 +1023,34 @@ This repository complements our survey on developments in sign language technolo
   **Authors:** Franco Ronchetti, Facundo Manuel Quiroga, César Estrebou, Laura Lanzarini, and Alejandro Rosete  
   **Introduction:** Contains 3,200 Argentinian Sign Language gesture videos recorded by 10 subjects, covering a total of 64 gestures, for sign language recognition and related machine learning research.
     
+- **ASL Citizen** [[dataset]](https://www.microsoft.com/en-us/research/project/asl-citizen/) [[paper]](https://arxiv.org/abs/2304.05934)    
+  **Authors:** Aashaka Desai, Lauren Berger, Fyodor Minakov, Nessa Milano, Chinmay Singh, Kriston Pumphrey, Richard Ladner, Hal Daumé III, Alex X. Lu, Naomi Caselli, et al.  
+  **Introduction:** Contains 83,399 American Sign Language videos recorded by 52 signers in various settings, covering 2,731 sign languages, for use in isolated sign language recognition and sign language dictionary retrieval research.
+
+- **PopSign ASL v1.0** [[dataset]](https://www.kaggle.com/datasets/mrgeislinger/popsign-asl-v1-0-game-test) [[paper]](https://openreview.net/forum?id=yEf8NSqTPu)    
+  **Authors:** Thad Starner, Sean Forbes, Matthew So, David Martin, Rohit Sridhar, Gururaj Deshpande, Sam Sepah, Sahir Shahryar, Khushi Bhardwaj, Tyler Kwok, et al.  
+  **Introduction:** A collection of 250 isolated ASL signs captured by 47 American Sign Language users using smartphones, totaling over 210,000 examples, was used for sign language recognition and educational game development.
+
+- **Slovo** [[dataset]](https://www.kaggle.com/datasets/kapitanov/slovo) [[paper]](https://arxiv.org/abs/2305.14527)    
+  **Authors:** Alexander Kapitanov, Kvanchiani Karina, Alexander Nagaev, and Elizaveta Petrova  
+  **Introduction:** Contains 20,000 high-definition video samples recorded by 194 Russian sign language users, covering 1,000 RSL gesture categories, for sign language recognition research and model training.
+
+- **ArabSign** [[dataset]](https://hamzah-luqman.github.io/ArabSign/) [[paper]](https://arxiv.org/abs/2210.03951)    
+  **Authors:** Hamzah Luqman  
+  **Introduction:** Contains 9,335 continuous Arabic sign sentence samples (approximately 10 hours) recorded by 6 sign language users, providing RGB, depth, and skeleton data for continuous ArSL recognition research.
+
+- **BDSL 49** [[dataset]](https://www.kaggle.com/datasets/umongsain/bdsl-49) [[paper]](https://www.sciencedirect.com/science/article/pii/S235234092300447X)    
+  **Authors:** Ayman Hasib, Jannatul Ferdous Eva, Saqib Sizan Khan, Mst Nipa Khatun, Ashraful Haque, Nishat Shahrin, Rashik Rahman, Hasan Murad, Md Rajibul Islam, and Molla Rashied Hussein  
+  **Introduction:** Contains 29,490 images of Bengali sign language letters from 49 categories, taken by 14 adults, for sign language recognition and detection research.  
+
+- **YouTube-ASL** [[dataset]](https://github.com/google-research/google-research/tree/master/youtube_asl) [[paper]](https://arxiv.org/abs/2306.15162)    
+  **Authors:** Dave Uthus, Garrett Tanzer, and Manfred Georg  
+  **Introduction:** A large-scale open-domain ASL video dataset containing approximately 1,000 hours of video and over 2,500 individual signers, for sign language recognition and translation research.
+
+- **SASL** [[dataset]](https://ieeexplore.ieee.org/document/10293328) [[paper]](https://ieeexplore.ieee.org/document/10293328)    
+  **Authors:** Mokgadi Setshekgamollo, Mohohlo Tsoeu, and Robyn Verrinder  
+  **Introduction:** The first parallel corpus of South African Sign Language and English, containing 5047 sentences, for use in vision-based neural sign language translation research.
+
+- **SASL** [[dataset]](https://ieeexplore.ieee.org/document/10293328) [[paper]](https://ieeexplore.ieee.org/document/10293328)    
+  **Authors:** Mokgadi Setshekgamollo, Mohohlo Tsoeu, and Robyn Verrinder  
+  **Introduction:** The first parallel corpus of South African Sign Language and English, containing 5047 sentences, for use in vision-based neural sign language translation research.
